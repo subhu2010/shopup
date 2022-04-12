@@ -1,0 +1,37 @@
+// button
+$button: ".all-button ";
+$button: "all-button button";
+$heading: ".site-header";
+
+#{$button} {
+    padding: 10px 25px;
+    box-shadow: 0px 3px 8px -3px rgba(1, 1, 1, 0.5);
+    outline: none;
+    border: 0;
+    background: $orange;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    transition: 0.5s;
+    transition: all 0.6s ease-in-out;
+    &:hover {
+        background: $orange-hover;
+        color: #fff;
+    }
+}
+
+#{$heading} {
+    margin-bottom: 2.5rem;
+    text-align: center;
+    h2 {
+        font-weight: 500;
+        color: $black;
+        font-size: 30px;
+    }
+    p {
+        margin-top: 0px;
+        margin-bottom: 0;
+        font-size: 17px;
+    }
+}
