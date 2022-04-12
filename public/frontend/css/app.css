@@ -39,7 +39,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Rasa", serif;
   font-weight: normal;
   font-size: 0.9375rem;
   color: #212121;
@@ -1508,33 +1508,20 @@ all-button button:hover {
   font-size: 17px;
 }
 
-/*
-   * Name: FirstAid Nepal (E_commerce)
-  * Version: 1 (Date: 10 jan 2021)
-  * Author: Softbenz / Sanjay Rawal
-   * Bootstrap v5.0.0 (https://getbootstrap.com)
-   *scss
-*/
-/*___________________ line-awesome-icon ______________________________*/
-@font-face {
-  font-family: "Line Awesome Brands";
-  src: url(/fonts/la-brands-400.eot?908ce19d18187969b32f22234c7fc8af) format("embedded-opentype");
-  font-style: normal;
-  font-weight: normal;
-  font-display: auto;
-}
 header {
   position: relative;
   background-color: #fff;
-  border-bottom: 0.0187rem solid rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  z-index: 1;
 }
 header .header__top {
-  border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.09);
+  background: #C39696;
 }
 header .header__top .top__content {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 header .header__top .top__content ul {
   padding: 0;
@@ -1554,8 +1541,9 @@ header .header__top .top__content ul li svg {
      object-fit: contain;
 }
 header .header__top .top__content ul li a {
-  color: #212121;
+  color: #fff;
   font-weight: normal;
+  font-size: 0.875rem;
 }
 header .header__top .top__content ul li a img,
 header .header__top .top__content ul li a svg {
@@ -1565,10 +1553,14 @@ header .header__top .top__content ul li a svg {
      object-fit: contain;
 }
 header .header__top .top__content ul li a:hover {
-  color: #ed128f;
+  color: #212121;
 }
 header .header__top .top__content ul li a.show svg path {
   fill: #ed128f;
+}
+header .header__top .top__content ul li a i {
+  color: #fff;
+  font-size: 0.875rem;
 }
 header .header__top .top__content ul li:last-child {
   margin-right: 0;
@@ -1629,7 +1621,7 @@ header .header__top .top__content ul.header--custom--left {
   margin-right: 3.125rem;
 }
 header .header__top .top__content ul.header--custom--left li {
-  border-right: 0.0625rem solid #000;
+  border-right: 0.0625rem solid transparent;
 }
 header .header__top .top__content ul.header--custom--left li:nth-last-child(2) {
   margin-right: 0.25rem;
@@ -1719,7 +1711,6 @@ header .header__top .top__content .top__right ul li.custom-popup .custom-body-po
   padding-bottom: 0;
 }
 header .main__header {
-  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
   padding: 0.3125rem 0;
 }
 header .main__header nav {
@@ -1744,7 +1735,7 @@ header .main__header nav .container .collapse ul {
 header .main__header nav .container .collapse ul li {
   margin: 0;
   padding: 0;
-  margin-right: 1.375rem;
+  margin-right: 2.5rem;
 }
 header .main__header nav .container .collapse ul li a {
   padding: 1.625rem 0;
@@ -1834,14 +1825,16 @@ header .main__header nav .container .header__right .searchBar {
   flex-direction: row;
   align-items: center;
   position: relative;
+  margin-left: 1.875rem;
 }
 header .main__header nav .container .header__right .searchBar #searchQueryInput {
   min-width: 22.125rem;
   height: 2.8rem;
   outline: none;
-  border: 0.0625rem solid #212121;
+  border: 0.0625rem solid transparent;
   border-radius: 0.25rem;
-  padding: 0 0.75rem 0 2.1875rem;
+  padding: 0 0.75rem 0 4rem;
+  background: #fafafa;
 }
 header .main__header nav .container .header__right .searchBar #searchQueryInput:target, header .main__header nav .container .header__right .searchBar #searchQueryInput:focus {
   border: 0.0625rem solid #ed128f;
@@ -1852,12 +1845,28 @@ header .main__header nav .container .header__right .searchBar #searchQuerySubmit
   border: none;
   outline: none;
   position: absolute;
-  left: 0;
-}
-header .main__header nav .container .header__right .searchBar #searchQuerySubmit svg path {
-  fill: #ed128f;
+  right: -100px;
+  background: #C39696;
+  color: #fff;
+  padding: 0 1.875rem;
 }
 header .main__header nav .container .header__right .searchBar #searchQuerySubmit:hover {
+  cursor: pointer;
+}
+header .main__header nav .container .header__right .searchBar #searchQueryIcon {
+  height: 2.8rem;
+  background: none;
+  border: none;
+  outline: none;
+  position: absolute;
+  left: 0;
+  background: #C39696;
+  padding: 0 0.75rem;
+}
+header .main__header nav .container .header__right .searchBar #searchQueryIcon svg path {
+  fill: #fff;
+}
+header .main__header nav .container .header__right .searchBar #searchQueryIcon:hover {
   cursor: pointer;
 }
 header .main__header nav .container .header__right .filter {
@@ -1898,23 +1907,41 @@ header .main__header nav .container.scrollUp nav ul > li a {
 header .main__header nav .container .mobile-view {
   display: none;
 }
+header .main__nav .nav {
+  justify-content: space-between;
+}
+header .main__nav .nav .custon__nav__link {
+  color: #212121;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
 
 .banner {
   position: relative;
-  border-top: 1px solid #f58625;
   background-color: #fff;
 }
 .banner .banner-wrap .sidebar-left {
-  width: 42rem;
+  width: 100%;
   margin-right: 1.875rem;
   padding: 1.25rem 0.9375rem;
-  background: #f3f3f3;
   position: relative;
+  height: 100%;
+}
+.banner .banner-wrap .sidebar-left ul li {
+  margin-bottom: 1.25rem;
+}
+.banner .banner-wrap .sidebar-left ul li:last-child {
+  margin-bottom: 0;
 }
 .banner .banner-wrap .sidebar-left ul li a {
   font-size: 15px;
   display: block;
   text-transform: capitalize;
+  color: #7C7C7C;
+}
+.banner .banner-wrap .sidebar-left ul li a.active {
+  color: #212121;
+  font-weight: 500;
 }
 .banner .banner-wrap .sidebar-left ul li.child {
   display: flex;
@@ -1936,10 +1963,16 @@ header .main__header nav .container .mobile-view {
   width: 14rem;
   padding: 1.25rem 0.9375rem;
   height: 100%;
+  z-index: 2;
 }
 .banner .banner-wrap .sidebar-left ul li:hover .mega-child {
   opacity: 1;
   visibility: visible;
+}
+.banner .banner-carousel .owl-nav {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 .banner .banner-block h2 {
   text-transform: uppercase;

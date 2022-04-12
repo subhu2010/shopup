@@ -96,13 +96,41 @@ function responseMessage(msg) {
 
 
 // carousel 
+$('.banner-carousel').owlCarousel({
+   loop: false,
+   margin: 15,
+   dots: false,
+   nav: true,
+   navText: ["<img src='frontend/img/three/arrow-left.svg'>", "<img src='frontend/img/three/arrow-right.svg'>"],
+   responsive: {
+      0: {
+         items: 1,
+         nav: true
+      },
+      600: {
+         items: 1,
+         nav: true
+      },
+      1000: {
+         items: 1,
+         nav: true
+      },
+      1200:{
+         items: 1,
+         nav: true
+      }
+
+   }
+});
+
+
 $('.flash-wrap').owlCarousel({
    loop: true,
    margin: 15,
    responsiveClass: true,
    dots: false,
    nav: true,
-   navText: ["<img src='img/three/arrow-left.svg'>", "<img src='img/three/arrow-right.svg'>"],
+   navText: ["<img src='frontend/img/three/arrow-left.svg'>", "<img src='frontend/img/three/arrow-right.svg'>"],
    responsive: {
       0: {
          items: 2,
