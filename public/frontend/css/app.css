@@ -1508,6 +1508,21 @@ all-button button:hover {
   font-size: 17px;
 }
 
+/*
+   * Name: FirstAid Nepal (E_commerce)
+  * Version: 1 (Date: 10 jan 2021)
+  * Author: Softbenz / Sanjay Rawal
+   * Bootstrap v5.0.0 (https://getbootstrap.com)
+   *scss
+*/
+/*___________________ line-awesome-icon ______________________________*/
+@font-face {
+  font-family: "Line Awesome Brands";
+  src: url(/fonts/la-brands-400.eot?908ce19d18187969b32f22234c7fc8af) format("embedded-opentype");
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+}
 header {
   position: relative;
   background-color: #fff;

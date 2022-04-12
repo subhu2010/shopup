@@ -128,6 +128,12 @@
 @include('frontend.includes.homepage.flash',['title' => 'Popular PRODUCTS'])
 
 
+@include('frontend.includes.homepage.payment-sec')
+
+
+@include('frontend.includes.homepage.latest')
+
+
 
 <section class="buy ">
     <div class="container">
