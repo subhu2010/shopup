@@ -447,6 +447,7 @@ header {
 // banner
 .banner {
     position: relative;
+    padding-bottom: 3.125rem;
     // border-top: 1px solid rgb(245, 134, 37);
     background-color: #fff;
     .banner-wrap {
@@ -538,6 +539,16 @@ header {
             }
         }
     }
+
+    .banner-wrap-footer-card {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        background: #fff;
+        padding: 1rem;
+        margin-top: 1.5625rem;
+        span {
+            margin-left: 1.875rem;
+            font-size: 1rem;        }
+    }
 }
 
 // luxury
@@ -606,16 +617,14 @@ header {
 // timer
 .timer {
     position: relative;
-    padding: 0;
-    margin-top: 0.9375rem;
-    margin-bottom: 0.9375rem;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+    background: $orientalPink;
 
     .timer__block {
-        display: inline-flex;
+        display: flex;
         align-items: center;
         justify-content: center;
-        box-shadow: $shadow;
-        background: #fff;
         border-top-right-radius: 0.9375rem;
         border-bottom-right-radius: 0.9375rem;
         padding: 0.375rem 0.9375rem 0.375rem 4.6875rem;
@@ -623,16 +632,16 @@ header {
             text-transform: uppercase;
             font-weight: 600;
             margin-right: 2rem;
-            color: $black;
+            color: $white;
         }
         .flipdown {
             li {
                 // height: 2rem;
                 // width: 2rem;
-                background: $yellow;
+                background: $white;
                 font-size: 1.125rem;
                 display: inline-block;
-                color: #fff;
+                color: $black;
                 padding: 0.1875rem 0.625rem;
                 margin: 0;
                 border-radius: 0.3125rem;
@@ -651,6 +660,14 @@ header {
 }
 
 // product
+.flash-section {
+    .products{
+        background: #f9f4f4;
+        .site-header {
+            display: none;
+        }
+    }
+}
 .products {
     background: #fff;
     .product__popular {
@@ -822,7 +839,7 @@ header {
     .arival__block {
         position: relative;
         height: 15rem;
-        margin-bottom: 1.875rem;
+        // margin-bottom: 1.875rem;
         border-radius: 0.625rem;
         overflow: hidden;
         transition: all 0.3s ease-in-out;

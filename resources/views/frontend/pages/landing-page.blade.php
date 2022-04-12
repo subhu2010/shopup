@@ -90,13 +90,33 @@
 
             </div>
         </div>
+        <div class="banner-wrap-footer row">
+            <div class="col-lg-4">
+                <div class="banner-wrap-footer-card">
+                    <img src="{{asset('frontend/img/pay/online-1.png')}}" alt="">
+                    <span>Online shopping</span>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="banner-wrap-footer-card">
+                    <img src="{{asset('frontend/img/pay/discount-1.png')}}" alt="">
+                    <span>Online shopping</span>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="banner-wrap-footer-card">
+                    <img src="{{asset('frontend/img/pay/vehicle.png')}}" alt="">
+                    <span>Online shopping</span>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
 
 <section class="timer">
     <div class="timer__block">
-        <h5>ending in </h5>
+        <h5>Flash Sale Ending in</h5>
         <ul class="flipdown">
             <li>
                 9
@@ -117,7 +137,9 @@
     </div>
 </section>
 
-@include('frontend.includes.homepage.flash',['title' => 'FLASH'])
+<div class="flash-section">
+    @include('frontend.includes.homepage.flash',['title' => 'FLASH'])
+</div>
 
 
 
