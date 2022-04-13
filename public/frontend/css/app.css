@@ -1940,7 +1940,7 @@ header .main__nav .nav .custon__nav__link {
   font-size: 15px;
   display: block;
   text-transform: capitalize;
-  color: #7C7C7C;
+  color: #7c7c7c;
 }
 .banner .banner-wrap .sidebar-left ul li a.active {
   color: #212121;
@@ -2321,7 +2321,7 @@ header .main__nav .nav .custon__nav__link {
   display: flex;
   flex: 1;
   padding-right: 0.5rem;
-  background: #FCFCFC;
+  background: #fcfcfc;
 }
 .products .best-sale .product-block .product__content h5 {
   -webkit-line-clamp: 4;
@@ -2352,6 +2352,10 @@ header .main__nav .nav .custon__nav__link {
 }
 .tab-product .tab-content ul li .products .best-sale .product-block .product__img {
   height: 16rem;
+}
+
+.recomended-sec ul li {
+  width: 20%;
 }
 
 .payment {

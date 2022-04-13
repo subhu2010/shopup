@@ -1817,36 +1817,7 @@
 
 @include('frontend.includes.homepage.advertise')
 
-@include('frontend.includes.homepage.payment-sec')
+@include('frontend.includes.homepage.recomended',['title' => 'recomended for you'])
 
-@include('frontend.includes.homepage.latest')
-
-
-
-<section class="buy ">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-4 ">
-                <div class="buy-block-left">
-                    <img src="{{asset('frontend/img/intersect.png')}}" alt="">
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-8 ">
-                <div class="buy-block-right">
-                    <h4>Want to buy Sofa?</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Eget aliquet nibh praesent tristique magna sit amet purus
-                        gravida. Pellentesque habitant morbi tristique senectus et netus et malesuada. Sed arcu non
-                        odio
-                        euismod lacinia at quis risus. Venenatis lectus magna fringilla urna porttitor. Vitae
-                        aliquet
-                        nec ullamcorper sit amet risus nullam eget. Interdum velit euismod in pellentesque massa
-                        placerat duis ultricies at quis risus.</p>
-                    <a href="" class="site-button">Enter Shop</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 @endsection
