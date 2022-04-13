@@ -797,7 +797,7 @@ ol {
     h5,
     h6 {
         text-transform: uppercase;
-        font-weight: 600;
+        font-weight: 700;
         text-decoration: none;
         color: $black;
     }
@@ -1012,7 +1012,7 @@ ol {
                 h5 {
                     font-size: 1rem;
                     margin-bottom: 0.5rem;
-                    font-weight: 500;
+                    font-weight: 400;
                     text-transform: capitalize;
                     display: -webkit-box;
                     -webkit-line-clamp: 2;
@@ -1026,8 +1026,8 @@ ol {
                     h4 {
                         margin-right: 1.875rem;
                         color: $black;
-                        font-weight: 600;
-                        font-size: 0.9375rem;
+                        font-weight: 400;
+                        font-size: .875rem;
                     }
                     h4 {
                         font-size: 1.125rem;
@@ -1036,6 +1036,8 @@ ol {
                         color: #aaa;
                         position: relative;
                         display: inline-block;
+                        font-size: .75rem;
+                        font-weight: 400;
                         &::before {
                             content: "";
                             position: absolute;
