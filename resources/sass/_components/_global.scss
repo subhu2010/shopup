@@ -30,7 +30,7 @@ body {
     overflow-x: hidden;
     position: relative;
     // background-color: #F3F3F3;
-    background-color: #f5f5f5;
+    background-color: #fff;
 }
 body,
 div,
@@ -560,7 +560,7 @@ ol {
 
 // all-button
 .site-button {
-    padding: 0.75rem 2rem;
+    padding: 0.4rem 2rem;
     font-size: 0.9375rem;
     color: $red;
     background-color: transparent;
@@ -971,7 +971,7 @@ ol {
             }
             .product__content {
                 padding: 0.5rem;
-                background: #fff;
+                background: #fcfcfc;
                 position: relative;
                 padding-right: 20%;
                 a {
@@ -982,9 +982,9 @@ ol {
                         height: 30px;
                         width: 30px;
                         // background-color: $bg;
-                        color: #fff;
+                        color: $black;
                         align-items: center;
-                        background: $orientalPink;
+                        background: transparent;
                         justify-content: center;
                         // clip-path: polygon(100% 0, 0 100%, 100% 100%);
                         svg {
@@ -993,13 +993,13 @@ ol {
                             top: 50%;
                             transform: translate(-50%, -50%);
                             path {
-                                fill: $white;
+                                fill: $black;
                             }
                         }
                     }
                     &:hover {
                         .content-cart {
-                            background-color: $red;
+                            background-color: $orientalPink;
                             svg {
                                 path {
                                     fill: #fff;
@@ -1058,11 +1058,11 @@ ol {
                 a {
                     &:hover {
                         h5 {
-                            color: $red;
+                            color: $orientalPink;
                         }
                         .price {
                             h4 {
-                                color: $red;
+                                color: $orientalPink;
                             }
                         }
                     }
@@ -1100,6 +1100,9 @@ ol {
                 left: unset;
             }
         }
+    }
+    .owl-stage {
+        padding: .625rem 0;
     }
 }
 

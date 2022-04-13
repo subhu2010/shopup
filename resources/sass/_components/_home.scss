@@ -871,6 +871,11 @@ header {
             opacity: 0;
             visibility: hidden;
             display: inline-block;
+            padding: 1.25rem;
+            h6 {
+                color: $white;
+                margin-bottom: 1.25rem;
+            }
             .site-button {
                 border-color: #fff;
                 color: #fff;
@@ -893,6 +898,36 @@ header {
             .shop {
                 opacity: 1;
                 visibility: visible;
+            }
+        }
+    }
+}
+
+// best sale
+.products {
+    .best-sale {
+        .product-block {
+            display: flex;
+            .product__img {
+                height: 10rem;
+                flex: 1.5;
+            }
+            .product__content {
+                display: flex;
+                flex: 1;
+                padding-right: .5rem;
+                background: #FCFCFC;
+                ;
+                h5 {
+                    -webkit-line-clamp: 4;
+                }
+                .price {
+                    position: absolute;
+                    bottom: 0.5rem;
+                    h4 {
+                        margin-right: 0;
+                    }
+                }
             }
         }
     }
