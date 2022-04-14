@@ -1,8 +1,8 @@
 <section class="join spacing">
     <div class="container">
         <div class="join-wrap">
-            <div class="join-block">
-                <h4>Join the Maauhri</h4>
+            <div class="join-block text-center">
+                <h4>Subscribe shophab to get notified</h4>
                 <p>Subscribe here and get updates on everything</p>
             </div>
             <div class="join-block form-group">
@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row ">
             <div class=" col-lg-2 col-md-6 col-sm-6 ">
-                <div class="footer ">
+                <div class="footer d-flex align-items-center ">
                     <div class="foot-logo">
                         <a href="index.php">
                             <img src="{{asset('frontend/img/logo/logo.png')}}" alt="site-logo">
@@ -33,36 +33,39 @@
             <div class="col-lg-2 col-md-6 col-sm-6">
                 <div class="footer">
                     <ul>
-                        <li><a href="about.php">About Service</a></li>
-                        <li><a href="carrer.php">Payment</a></li>
-                        <li><a href="faq.php">Faq</a></li>
+                        <li><a href="javascript:void(0)">About Service</a></li>
+                        <li><a href="javascript:void(0)">Payment</a></li>
+                        <li><a href="javascript:void(0)">FAQ</a></li>
+                        <li><a href="javascript:void(0)">Return Policy</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-2 col-md-6 col-sm-6">
                 <div class="footer">
                     <ul>
-                        <li><a href="privacy.php">Privacy Policy</a></li>
-                        <li><a href="agreementh.php">User Agreement</a></li>
-                        <li><a href="contact.php">Legal Information</a></li>
+                        <li><a href="javascript:void(0)">Terms of sale</a></li>
+                        <li><a href="javascript:void(0)">Gift Cards</a></li>
+                        <li><a href="javascript:void(0)">Contacts</a></li>
+                        <li><a href="javascript:void(0)">Payment Policy</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-2 col-md-6 col-sm-6">
                 <div class="footer">
                     <ul>
-                        <li><a href="about.php">News</a></li>
-                        <li><a href="carrer.php">Terms of Cooperation</a></li>
-                        <li><a href="faq.php">Be part of our Team</a></li>
+                        <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                        <li><a href="javascript:void(0)">User Agreement</a></li>
+                        <li><a href="javascript:void(0)">Legal Information</a></li>
+                        <li><a href="javascript:void(0)">Why Laxxery?</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-2 col-md-6 col-sm-6">
                 <div class="footer">
                     <ul>
-                        <li><a href="about.php">News</a></li>
-                        <li><a href="carrer.php">Terms of Cooperation</a></li>
-                        <li><a href="faq.php">Be part of our Team</a></li>
+                        <li><a href="javascript:void(0)">News</a></li>
+                        <li><a href="javascript:void(0)">Terms of Cooperation</a></li>
+                        <li><a href="javascript:void(0)">Be part of our Team</a></li>
                     </ul>
                 </div>
             </div>
@@ -88,37 +91,15 @@
                                 </a>
                             </li>
                         </ul>
-                        <a href="mailto:maauri@gmail.com">maauri@gmail.com</a>
+                        <a href="mailto:Shopup@gmail.com">Shopup@gmail.com</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="join-wrap">
-                <div class="join-block">
-                    <ul>
-                        <li class="top-head">Payment Methods</li>
-                        <li>
-                            <a href="">
-                                <img src="{{asset('frontend/img/pay/e-sewa.png')}}" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="{{asset('frontend/img/pay/khalti.png')}}" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="{{asset('frontend/img/pay/master.png')}}" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="{{asset('frontend/img/pay/visa.png')}}" alt="">
-                            </a>
-                        </li>
-                    </ul>
+                <div class="copyright text-center">
+                    <p class="mb-0">Copyright © {{date('Y')}} by Shopup</p>
                 </div>
             </div>
         </div>

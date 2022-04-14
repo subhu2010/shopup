@@ -41,11 +41,8 @@
     <div class="main__header">
         <nav class="navbar header__menu navbar-expand-lg navbar-dark ">
             <div class="container">
-                <div class="header__right">
-                    <div class="filter 	d-block d-sm-block d-md-block d-lg-none">
-                        <button id="sidebarButton"> More</button>
-                    </div>
-                    <div class="header__logo d-none d-lg-block">
+                <div class="header__right"> 
+                    <div class="header__logo">
                         <a href="index.php">
                             <img src="{{asset('frontend/img/logo/logo-rm.png')}}" alt="">
                         </a>
@@ -63,11 +60,14 @@
                             Submit
                         </button>
                     </div>
-                    <div class="header__logo d-lg-none">
+                    <div class="filter 	d-block d-sm-block d-md-block d-lg-none">
+                        <button id="sidebarButton"> More</button>
+                    </div>
+                    <!-- <div class="header__logo d-lg-none">
                         <a href="index.php">
                             <img src="{{asset('frontend/img/logo/logo-rm.png')}}" alt="">
                         </a>
-                    </div>
+                    </div> -->
                 </div>
 
 
@@ -113,7 +113,7 @@
             </div>
         </nav>
     </div>
-    <div class="main__nav">
+    <div class="main__nav d-none d-lg-block">
         <div class="container">
             <ul class="nav">
                 <li class="nav-item">

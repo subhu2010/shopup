@@ -6,7 +6,7 @@
                 {{ $title }}
             </h5>
         </div>
-        <ul class="row g-0 g-3">
+        <ul class="row">
             <li class="products">
                 <div class="product-wrap">
                     <div class="product-block">
