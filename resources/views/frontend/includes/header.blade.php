@@ -117,25 +117,25 @@
         <div class="container">
             <ul class="nav">
                 <li class="nav-item">
-                    <a class="nav-link custon__nav__link active" aria-current="page" href="javascript:void(0)">Home</a>
+                    <a class="nav-link custon__nav__link active" aria-current="page" href="{{url('/')}}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custon__nav__link" href="javascript:void(0)">New products</a>
+                    <a class="nav-link custon__nav__link" href="{{url('listing-page')}}">New products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custon__nav__link" href="javascript:void(0)">On sale</a>
+                    <a class="nav-link custon__nav__link" href="{{url('listing-page')}}">On sale</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custon__nav__link" href="javascript:void(0)">Popular products</a>
+                    <a class="nav-link custon__nav__link" href="{{url('listing-page')}}">Popular products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custon__nav__link" href="javascript:void(0)">Trending products</a>
+                    <a class="nav-link custon__nav__link" href="{{url('listing-page')}}">Trending products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custon__nav__link" href="javascript:void(0)">Track my order</a>
+                    <a class="nav-link custon__nav__link" href="{{url('listing-page')}}">Track my order</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custon__nav__link" href="javascript:void(0)">Become seller</a>
+                    <a class="nav-link custon__nav__link" href="{{url('listing-page')}}">Become seller</a>
                 </li>
             </ul>
         </div>

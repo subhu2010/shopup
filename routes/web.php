@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('frontend.pages.landing-page');
 });
+
+Route::get('listing-page', function () {
+    return view('frontend.pages.listing');
+});
+
