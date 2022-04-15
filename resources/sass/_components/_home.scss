@@ -1334,6 +1334,16 @@ header {
                 }
             }
         }
+        h6 {
+            font-weight: 500;
+            text-transform: capitalize;
+            span {
+                color: #7C7C7C;
+                font-weight: 400;
+                margin-left: 1.25rem;
+                text-transform: lowercase;
+            }
+        }
     }
 }
 
@@ -1360,12 +1370,12 @@ header {
         padding: 1.25rem;
         h3 {
             font-weight: 600;
-            text-align: center;
+            font-size: 1.5rem;
         }
         .ratting {
             display: flex;
             align-items: center;
-            margin: 0.5625rem 0;
+            // margin: 0.5625rem 0;
             span {
                 margin-left: 0.9375rem;
                 a {
@@ -1382,33 +1392,112 @@ header {
             h6 {
                 margin-bottom: 0.625rem;
                 text-transform: capitalize;
+                font-size: 1.25rem;
                 span {
-                    color: $orientalPink;
+                    // color: $orientalPink;
                     margin-left: 0.25rem;
+                    font-weight: 600;
                 }
                 i {
                     font-size: 1.125rem;
                 }
+            }
+            h6 {
+                font-weight: 400;
+                font-size: 1rem;
             }
             ul {
                 margin: 0;
                 padding: 0;
                 li {
                     margin: 0;
-                    margin-left: 1.5rem;
-                    list-style: disc;
                     i {
-                        font-size: 1.5rem;
+                        font-size: 1rem;
                     }
                 }
             }
             .right-button {
                 h5 {
                     margin: 0;
+                    font-size: 1rem;
                 }
                 > a {
                     &:nth-child(2) {
                         margin: 0 0.9375rem;
+                    }
+                    > img {
+                        height: 1rem;
+                        width: 1rem;
+                    }
+
+                }
+                ul {
+                    li {
+                        a {
+                            i {
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                }
+                table {
+                    width: 100%;
+                    tr {
+                        margin-bottom: 1.25rem;
+                        display: block;
+                        td {
+                            border: none;
+                            padding: 0;
+                            &:first-child {
+                                width: 8vw;
+                            }
+                            span {
+                                font-size: 1rem;
+                                text-transform: capitalize;
+                            }
+                        }
+                    }
+                }
+                .color {
+                    display: flex;
+                    align-items: center;
+                    span {
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+                        padding-left: 1.5625rem;
+                        margin-right: .625rem;
+                        cursor: pointer;
+                        &::before {
+                            content:'';
+                            height: 1.25rem;
+                            width: 1.25rem;
+                            border-radius: 50%;
+                            position: absolute;
+                            left: 0;
+                        }
+                        &.red {
+                            &::before {
+                                background: red;
+                            }
+                        }
+                        &.blue {
+                            &::before {
+                                background: blue;
+                            }
+                        }
+                        &.green {
+                            &::before {
+                                background: green;
+                            }
+                        }
+                    }
+                }
+                .custom-button {
+                    display: flex;
+                    .cart-btn {
+                        background: $orientalPink;
+                        color: $white;
                     }
                 }
             }
@@ -1471,6 +1560,27 @@ header {
             .all-button {
                 border: 2px solid $orientalPink;
             }
+        }
+    }
+}
+.detail-main-info {
+    .nav {
+        li {
+            margin-right: 3.125rem;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    .tab-nav-link {
+        font-size: 1.375rem;
+        color: #7C7C7C;
+        &.active {
+            border-bottom: .125rem solid $orientalPink;
+            color: $black;
+            background: transparent;
+            border-radius: 0;
+            font-weight: 600;
         }
     }
 }

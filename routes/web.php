@@ -21,3 +21,7 @@ Route::get('listing-page', function () {
     return view('frontend.pages.listing');
 });
 
+Route::get('detail', function () {
+    return view('frontend.pages.detail');
+});
+

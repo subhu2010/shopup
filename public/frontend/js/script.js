@@ -158,7 +158,7 @@ $('.list-wrapp').owlCarousel({
    responsiveClass: true,
    dots: false,
    nav: true,
-   navText: ["<img src='img/three/arrow-left.svg'>", "<img src='img/three/arrow-right.svg'>"],
+   navText: ["<img src='frontend/img/three/arrow-left.svg'>", "<img src='frontend/img/three/arrow-right.svg'>"],
    responsive: {
       0: {
          items: 2,
@@ -256,7 +256,7 @@ $('.latest-list-slider').owlCarousel({
    autoplay: true,
    autoplayTimeout: 4500,
    nav: true,
-   navText: ["<img src='img/three/arrow-left.svg'>", "<img src='img/three/arrow-right.svg'>"],
+   navText: ["<img src='frontend/img/three/arrow-left.svg'>", "<img src='frontend/img/three/arrow-right.svg'>"],
    responsive: {
       0: {
          items: 1,
@@ -280,7 +280,7 @@ $('.similar-product').owlCarousel({
    autoplay: true,
    autoplayTimeout: 4500,
    nav: true,
-   navText: ["<img src='img/three/arrow-left.svg'>", "<img src='img/three/arrow-right.svg'>"],
+   navText: ["<img src='frontend/img/three/arrow-left.svg'>", "<img src='frontend/img/three/arrow-right.svg'>"],
    responsive: {
       0: {
          items: 2,
@@ -309,7 +309,7 @@ $('.category-slider').owlCarousel({
    autoplay: false,
    autoplayTimeout: 3000,
    nav: true,
-   navText: ["<img src='img/three/arrow-left.svg'>", "<img src='img/three/arrow-right.svg'>"],
+   navText: ["<img src='frontend/img/three/arrow-left.svg'>", "<img src='frontend/img/three/arrow-right.svg'>"],
    responsive: {
       0: {
          items: 2

@@ -442,6 +442,16 @@ ol {
                     font-size: 0.875rem;
                     margin: 0;
                 }
+                .content-img-left img {
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 50%;
+                    border: 1px solid $orientalPink;
+                    margin-right: 20px;
+                }
+                .content-text-left {
+                    width: calc(100% - 120px);
+                }
             }
         }
     }
@@ -513,13 +523,15 @@ ol {
 
 .product-counter {
     display: flex;
+    border: 1px solid #C4C4C4;
+    border-radius: .3125rem;
 }
 .custom-button input[type="text"] {
-    font-weight: bold;
     outline-style: none;
     text-align: center;
     height: 2.8125rem;
     width: 3.75rem;
+    font-size: 1.5625rem;
     position: relative;
     background: transparent;
     border: none;
@@ -531,13 +543,13 @@ ol {
     justify-content: center;
 }
 .custom-button input[type="button"] {
-    background-color: $yellow;
+    background-color: transparent;
     cursor: pointer;
     outline-style: none;
     width: 40px;
     height: 45px;
     border: 0;
-    color: #d0fcfb;
+    color: #c4c4c4;
     text-align: center;
     display: flex;
     font-size: 1.625rem;
