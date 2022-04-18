@@ -221,14 +221,14 @@
                                 <h5>-50%</h5>
                             </div>
                             <div class="more-detail">
-                                <a href="detail.php">
+                                <a href="{{url('detail')}}">
                                     <h5>More Details</h5>
                                 </a>
                             </div>
 
                         </div>
                         <div class="product__content">
-                            <a href="detail.php">
+                            <a href="{{url('detail')}}">
                                 <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                 <div class="price">
                                     <h6 class="past">Rs 500</h6>
@@ -338,14 +338,14 @@
                                 <h5>-50%</h5>
                             </div>
                             <div class="more-detail">
-                                <a href="detail.php">
+                                <a href="{{url('detail')}}">
                                     <h5>More Details</h5>
                                 </a>
                             </div>
 
                         </div>
                         <div class="product__content">
-                            <a href="detail.php">
+                            <a href="{{url('detail')}}">
                                 <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                 <div class="price">
                                     <h6 class="past">Rs 500</h6>
@@ -438,14 +438,14 @@
                                 <h5>-50%</h5>
                             </div>
                             <div class="more-detail">
-                                <a href="detail.php">
+                                <a href="{{url('detail')}}">
                                     <h5>More Details</h5>
                                 </a>
                             </div>
 
                         </div>
                         <div class="product__content">
-                            <a href="detail.php">
+                            <a href="{{url('detail')}}">
                                 <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                 <div class="price">
                                     <h6 class="past">Rs 500</h6>
@@ -538,14 +538,14 @@
                                 <h5>-50%</h5>
                             </div>
                             <div class="more-detail">
-                                <a href="detail.php">
+                                <a href="{{url('detail')}}">
                                     <h5>More Details</h5>
                                 </a>
                             </div>
 
                         </div>
                         <div class="product__content">
-                            <a href="detail.php">
+                            <a href="{{url('detail')}}">
                                 <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                 <div class="price">
                                     <h6 class="past">Rs 500</h6>
@@ -639,14 +639,14 @@
                                 <h5>-50%</h5>
                             </div>
                             <div class="more-detail">
-                                <a href="detail.php">
+                                <a href="{{url('detail')}}">
                                     <h5>More Details</h5>
                                 </a>
                             </div>
 
                         </div>
                         <div class="product__content">
-                            <a href="detail.php">
+                            <a href="{{url('detail')}}">
                                 <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                 <div class="price">
                                     <h6 class="past">Rs 500</h6>
@@ -740,14 +740,14 @@
                                 <h5>-50%</h5>
                             </div>
                             <div class="more-detail">
-                                <a href="detail.php">
+                                <a href="{{url('detail')}}">
                                     <h5>More Details</h5>
                                 </a>
                             </div>
 
                         </div>
                         <div class="product__content">
-                            <a href="detail.php">
+                            <a href="{{url('detail')}}">
                                 <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                 <div class="price">
                                     <h6 class="past">Rs 500</h6>
@@ -863,14 +863,14 @@
                                         <h5>-50%</h5>
                                     </div>
                                     <div class="more-detail">
-                                        <a href="detail.php">
+                                        <a href="{{url('detail')}}">
                                             <h5>More Details</h5>
                                         </a>
                                     </div>
 
                                 </div>
                                 <div class="product__content">
-                                    <a href="detail.php">
+                                    <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
                                             <h6 class="past">Rs 500</h6>
@@ -964,14 +964,14 @@
                                         <h5>-50%</h5>
                                     </div>
                                     <div class="more-detail">
-                                        <a href="detail.php">
+                                        <a href="{{url('detail')}}">
                                             <h5>More Details</h5>
                                         </a>
                                     </div>
 
                                 </div>
                                 <div class="product__content">
-                                    <a href="detail.php">
+                                    <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
                                             <h6 class="past">Rs 500</h6>
@@ -1065,14 +1065,14 @@
                                         <h5>-50%</h5>
                                     </div>
                                     <div class="more-detail">
-                                        <a href="detail.php">
+                                        <a href="{{url('detail')}}">
                                             <h5>More Details</h5>
                                         </a>
                                     </div>
 
                                 </div>
                                 <div class="product__content">
-                                    <a href="detail.php">
+                                    <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
                                             <h6 class="past">Rs 500</h6>
@@ -1166,14 +1166,14 @@
                                         <h5>-50%</h5>
                                     </div>
                                     <div class="more-detail">
-                                        <a href="detail.php">
+                                        <a href="{{url('detail')}}">
                                             <h5>More Details</h5>
                                         </a>
                                     </div>
 
                                 </div>
                                 <div class="product__content">
-                                    <a href="detail.php">
+                                    <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
                                             <h6 class="past">Rs 500</h6>
@@ -1265,14 +1265,14 @@
                                         <h5>-50%</h5>
                                     </div>
                                     <div class="more-detail">
-                                        <a href="detail.php">
+                                        <a href="{{url('detail')}}">
                                             <h5>More Details</h5>
                                         </a>
                                     </div>
 
                                 </div>
                                 <div class="product__content">
-                                    <a href="detail.php">
+                                    <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
                                             <h6 class="past">Rs 500</h6>
@@ -1370,14 +1370,14 @@
                                         <h5>-50%</h5>
                                     </div>
                                     <div class="more-detail">
-                                        <a href="detail.php">
+                                        <a href="{{url('detail')}}">
                                             <h5>More Details</h5>
                                         </a>
                                     </div>
 
                                 </div>
                                 <div class="product__content">
-                                    <a href="detail.php">
+                                    <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
                                             <h6 class="past">Rs 500</h6>
@@ -1471,14 +1471,14 @@
                                         <h5>-50%</h5>
                                     </div>
                                     <div class="more-detail">
-                                        <a href="detail.php">
+                                        <a href="{{url('detail')}}">
                                             <h5>More Details</h5>
                                         </a>
                                     </div>
 
                                 </div>
                                 <div class="product__content">
-                                    <a href="detail.php">
+                                    <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
                                             <h6 class="past">Rs 500</h6>
@@ -1572,14 +1572,14 @@
                                         <h5>-50%</h5>
                                     </div>
                                     <div class="more-detail">
-                                        <a href="detail.php">
+                                        <a href="{{url('detail')}}">
                                             <h5>More Details</h5>
                                         </a>
                                     </div>
 
                                 </div>
                                 <div class="product__content">
-                                    <a href="detail.php">
+                                    <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
                                             <h6 class="past">Rs 500</h6>
@@ -1673,14 +1673,14 @@
                                         <h5>-50%</h5>
                                     </div>
                                     <div class="more-detail">
-                                        <a href="detail.php">
+                                        <a href="{{url('detail')}}">
                                             <h5>More Details</h5>
                                         </a>
                                     </div>
 
                                 </div>
                                 <div class="product__content">
-                                    <a href="detail.php">
+                                    <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
                                             <h6 class="past">Rs 500</h6>
@@ -1773,14 +1773,14 @@
                                         <h5>-50%</h5>
                                     </div>
                                     <div class="more-detail">
-                                        <a href="detail.php">
+                                        <a href="{{url('detail')}}">
                                             <h5>More Details</h5>
                                         </a>
                                     </div>
 
                                 </div>
                                 <div class="product__content">
-                                    <a href="detail.php">
+                                    <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
                                             <h6 class="past">Rs 500</h6>

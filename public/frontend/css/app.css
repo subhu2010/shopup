@@ -1927,6 +1927,97 @@ header .main__nav .nav .custon__nav__link {
   font-weight: 400;
 }
 
+.account-modal .modal-content {
+  padding: 1.875rem 2.5rem;
+  position: relative;
+}
+.account-modal .modal-content .modal-header button {
+  position: absolute;
+  top: 0.4375rem;
+  right: 0.4375rem;
+}
+.account-modal .nav-pills .nav-item {
+  width: 50%;
+}
+.account-modal .nav-pills .nav-item .nav-link {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #f3f3f3;
+  border-radius: 0;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding: 10px;
+  color: #212121;
+}
+.account-modal .nav-pills .nav-item .nav-link.active {
+  background: transparent !important;
+  color: #C39696 !important;
+  border-color: #C39696;
+}
+.account-modal .account-form label {
+  color: #666;
+  font-weight: 300;
+  font-size: 0.875rem;
+  margin-bottom: 0.625rem;
+}
+.account-modal .account-form p {
+  margin-bottom: 1.25rem;
+  color: #7c7c7c;
+  text-align: center;
+}
+.account-modal .account-form .form-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.account-modal .account-form .form-footer .form-btn {
+  padding: 0.3125rem 0.9375rem;
+  text-transform: uppercase;
+  color: #C39696;
+  border: 1px solid #C39696;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+.account-modal .account-form .form-footer .form-btn i {
+  color: #C39696;
+  margin-left: 0.625rem;
+}
+.account-modal .account-form .form-footer .form-btn:hover {
+  background-color: #C39696;
+}
+.account-modal .account-form .form-footer a:hover {
+  color: #C39696;
+}
+.account-modal .account-form .form-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.account-modal .account-form .form-social .form-social-btn {
+  color: #333;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  text-align: center;
+  padding: 0.85rem 1rem;
+  border: 0.1rem solid #ebebeb;
+  width: 47%;
+  text-transform: capitalize;
+}
+.account-modal .account-form .form-social .form-social-btn i {
+  margin-right: 0.625rem;
+}
+.account-modal .account-form .form-social .form-social-btn .la-google {
+  color: #c33;
+}
+.account-modal .account-form .form-social .form-social-btn .la-facebook-f {
+  color: #36c;
+}
+.account-modal .account-form .form-social .form-social-btn:hover {
+  background-color: #f5f6f9;
+}
+
 .banner {
   position: relative;
   padding-bottom: 3.125rem;
@@ -2525,7 +2616,7 @@ header .main__nav .nav .custon__nav__link {
 .trending-btn .trending-btn-group li {
   padding: 0.625rem 2.5rem;
   display: inline-block;
-  border: 1px solid #7C7C7C;
+  border: 1px solid #7c7c7c;
   border-radius: 0.3125rem;
   background: #fff;
   margin-left: 1.5625rem;
@@ -2535,7 +2626,7 @@ header .main__nav .nav .custon__nav__link {
   display: block;
   text-transform: capitalize;
   font-size: 0.875rem;
-  color: #7C7C7C;
+  color: #7c7c7c;
 }
 .trending-btn .trending-btn-group li:first-child {
   margin-left: 0;
@@ -2717,7 +2808,7 @@ header .main__nav .nav .custon__nav__link {
   text-transform: capitalize;
 }
 .list .list__content h6 span {
-  color: #7C7C7C;
+  color: #7c7c7c;
   font-weight: 400;
   margin-left: 1.25rem;
   text-transform: lowercase;
@@ -2861,6 +2952,10 @@ header .main__nav .nav .custon__nav__link {
 .details .detail-right .detail-info .right-button .custom-button .cart-btn {
   background: #C39696;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
 }
 .details .detail-right .right-block {
   margin-top: 15px;
@@ -2924,7 +3019,7 @@ header .main__nav .nav .custon__nav__link {
 }
 .detail-main-info .tab-nav-link {
   font-size: 1.375rem;
-  color: #7C7C7C;
+  color: #7c7c7c;
 }
 .detail-main-info .tab-nav-link.active {
   border-bottom: 0.125rem solid #C39696;
