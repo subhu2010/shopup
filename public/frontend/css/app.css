@@ -3538,6 +3538,68 @@ footer .join-wrap .join-block ul li img {
   cursor: pointer;
 }
 
+.seller-banner {
+  position: relative;
+}
+.seller-banner img {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.seller-detail .seller-info {
+  background-color: #fff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  padding: 1.5625rem 1.875rem;
+  margin-top: -12rem;
+  z-index: 1;
+  position: relative;
+}
+.seller-detail .seller-info .seller-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+.seller-detail .seller-info .seller-img img {
+  height: 11.25rem;
+  width: 11.25rem;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.seller-detail .seller-info .sellerl-info-list {
+  margin-bottom: 1rem;
+}
+.seller-detail .seller-info .sellerl-info-list li {
+  color: #000;
+  font-size: 0.875rem;
+}
+.seller-detail .seller-info .sellerl-info-list li span {
+  margin-right: 0.9375rem;
+}
+.seller-detail .seller-info .certified .certified-info {
+  display: inline-block;
+  height: 2.1875rem;
+  width: 2.1875rem;
+  border-radius: 50%;
+  border: 0.0625rem solid #C39696;
+  position: relative;
+  margin-right: 1rem;
+}
+.seller-detail .seller-info .certified .certified-info i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.25rem;
+}
+.seller-detail .seller-about {
+  padding: 2.5rem;
+}
+.seller-detail .seller-about > h1 {
+  font-size: 1.25rem;
+}
+
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
   .navbar .nav-item .dropdown-menu {

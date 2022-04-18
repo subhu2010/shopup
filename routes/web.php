@@ -25,3 +25,7 @@ Route::get('detail', function () {
     return view('frontend.pages.detail');
 });
 
+Route::get('seller-detail', function () {
+    return view('frontend.pages.seller-detail');
+});
+

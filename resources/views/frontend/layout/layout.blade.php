@@ -24,7 +24,7 @@
     <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <title>luxury | E-commerce</title>
+    <title>Shophab</title>
 
     <!-- Bootstrap cdn CSS -->
     <link href="{{asset('frontend/css/bootstrap.min.css')}}" rel="stylesheet">

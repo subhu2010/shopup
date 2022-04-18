@@ -45,7 +45,7 @@
                     <h3>Lcd Writing Tablet 8.5 Inch Electronic Drawing</h3>
                     <div class="detail-info">
                         <h5>Rs. 4300</h5>
-                        <h6>Sold by <span>Subash Khakurel</span></h6>
+                        <h6>Sold by <span><a href="{{url('seller-detail')}}"> Subash Khakurel</a></span></h6>
                     </div>
                     <div class="detail-info">
                         <div class="right-button ">

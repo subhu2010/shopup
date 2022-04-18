@@ -1,0 +1,63 @@
+.seller-banner {
+    position: relative;
+    img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+.seller-detail {
+    .seller-info {
+        background-color: $white;
+        box-shadow: $shadow;
+        padding: 1.5625rem 1.875rem;
+        margin-top: -12rem;
+        z-index: 1;
+        position: relative;
+        .seller-img {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1.25rem;
+            img {
+                height: 11.25rem;
+                width: 11.25rem;
+                border-radius: 50%;
+                margin: 0 auto;
+            }
+        }
+        .sellerl-info-list {
+            margin-bottom: 1rem;
+            li {
+                color: #000;
+                font-size: 0.875rem;
+                span {
+                    margin-right: 0.9375rem;
+                }
+            }
+        }
+        .certified {
+            .certified-info {
+                display: inline-block;
+                height: 2.1875rem;
+                width: 2.1875rem;
+                border-radius: 50%;
+                border: 0.0625rem solid $orientalPink;
+                position: relative;
+                margin-right: 1rem;
+                i {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    }
+    .seller-about {
+        padding: 2.5rem;
+        > h1 {
+            font-size: 1.25rem;
+        }
+    }
+}
