@@ -29,3 +29,7 @@ Route::get('seller-detail', function () {
     return view('frontend.pages.seller-detail');
 });
 
+Route::get('cart-list', function () {
+    return view('frontend.pages.cart-list');
+});
+

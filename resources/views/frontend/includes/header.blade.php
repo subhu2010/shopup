@@ -85,7 +85,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="javascript:void(0)">
+                            <a href="{{url('cart-list')}}">
                                 <svg width="20" height="20" viewBox="0 0 16 14" fill="#000"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"

@@ -504,6 +504,10 @@ header {
                 }
                 &:hover {
                     background-color: $orientalPink;
+                    color: $white;
+                    i {
+                        color: $white;
+                    }
                 }
             }
             a {
@@ -1855,7 +1859,7 @@ header {
                     }
                 }
                 &.cart {
-                    li {
+                    .cart-list {
                         background: $light-red;
                         box-shadow: none;
                         .img {

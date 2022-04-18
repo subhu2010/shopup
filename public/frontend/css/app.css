@@ -1391,12 +1391,12 @@ ol li a {
 .custom-table table thead tr:nth-child(even),
 .custom-table table tbody tr:nth-child(even),
 .custom-table table tfoot tr:nth-child(even) {
-  background: #FFDCDC;
+  background: rgba(195, 150, 150, 0.2);
 }
 .custom-table table thead tr:nth-child(even):hover,
 .custom-table table tbody tr:nth-child(even):hover,
 .custom-table table tfoot tr:nth-child(even):hover {
-  background: #FFDCDC;
+  background: rgba(195, 150, 150, 0.2);
 }
 .custom-table table thead tr .sorting_1,
 .custom-table table tbody tr .sorting_1,
@@ -1437,7 +1437,7 @@ table td p:last-child {
 .paginate_button {
   border: 0 !important;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
-  background: #FFDCDC;
+  background: rgba(195, 150, 150, 0.2);
   color: #fff !important;
 }
 .paginate_button:hover {
@@ -1985,6 +1985,10 @@ header .main__nav .nav .custon__nav__link {
 }
 .account-modal .account-form .form-footer .form-btn:hover {
   background-color: #C39696;
+  color: #fff;
+}
+.account-modal .account-form .form-footer .form-btn:hover i {
+  color: #fff;
 }
 .account-modal .account-form .form-footer a:hover {
   color: #C39696;
@@ -3189,44 +3193,44 @@ header .main__nav .nav .custon__nav__link {
 .user-dashboard .user-content .user-block .order.history .order-block .status span.order {
   background: #FC6400;
 }
-.user-dashboard .user-content .user-block .order.cart li {
-  background: #FFDCDC;
+.user-dashboard .user-content .user-block .order.cart .cart-list {
+  background: rgba(195, 150, 150, 0.2);
   box-shadow: none;
 }
-.user-dashboard .user-content .user-block .order.cart li .img {
+.user-dashboard .user-content .user-block .order.cart .cart-list .img {
   position: relative;
 }
-.user-dashboard .user-content .user-block .order.cart li .img img {
+.user-dashboard .user-content .user-block .order.cart .cart-list .img img {
   height: 9.375rem;
   width: 9.375rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.user-dashboard .user-content .user-block .order.cart li .img .checkbox label::before {
+.user-dashboard .user-content .user-block .order.cart .cart-list .img .checkbox label::before {
   position: absolute;
   left: 0;
   top: 0;
   z-index: 9;
 }
-.user-dashboard .user-content .user-block .order.cart li .img .checkbox label::after {
+.user-dashboard .user-content .user-block .order.cart .cart-list .img .checkbox label::after {
   position: absolute;
   top: 0;
   z-index: 9;
 }
-.user-dashboard .user-content .user-block .order.cart li .quantity-button {
+.user-dashboard .user-content .user-block .order.cart .cart-list .quantity-button {
   margin: 0.3125rem 0;
 }
-.user-dashboard .user-content .user-block .order.cart li .quantity-button span {
+.user-dashboard .user-content .user-block .order.cart .cart-list .quantity-button span {
   font-size: 0.8125rem;
   color: #4E4E4E;
   text-transform: capitalize;
 }
-.user-dashboard .user-content .user-block .order.cart li .quantity-button .custom-button input[type=button] {
+.user-dashboard .user-content .user-block .order.cart .cart-list .quantity-button .custom-button input[type=button] {
   width: 2.1875rem;
   height: 1.875rem;
   font-size: 1.0625rem;
 }
-.user-dashboard .user-content .user-block .order.cart li .quantity-button .custom-button input[type=text] {
+.user-dashboard .user-content .user-block .order.cart .cart-list .quantity-button .custom-button input[type=text] {
   height: 1.875rem;
   width: 2.1875rem;
 }
@@ -4110,7 +4114,7 @@ footer .join-wrap .join-block ul li img {
     background: #FC6400;
   }
   .user-dashboard .user-content .user-block .order.cart li {
-    background: #FFDCDC;
+    background: rgba(195, 150, 150, 0.2);
     box-shadow: none;
   }
   .user-dashboard .user-content .user-block .order.cart li .img {
@@ -5635,7 +5639,7 @@ header .header__top .top__content ul li a svg {
     background: #FC6400;
   }
   .user-dashboard .user-content .user-block .order.cart li {
-    background: #FFDCDC;
+    background: rgba(195, 150, 150, 0.2);
     box-shadow: none;
   }
   .user-dashboard .user-content .user-block .order.cart li .img {
@@ -7111,7 +7115,7 @@ header .header__top .top__content ul li a svg {
     background: #FC6400;
   }
   .user-dashboard .user-content .user-block .order.cart li {
-    background: #FFDCDC;
+    background: rgba(195, 150, 150, 0.2);
     box-shadow: none;
   }
   .user-dashboard .user-content .user-block .order.cart li .img {
