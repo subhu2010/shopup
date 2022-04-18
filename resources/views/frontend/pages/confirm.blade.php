@@ -5,7 +5,7 @@
 @section("content")
 
 <section class="breadcrumb-wrap list-wrap">
-@include('frontend.includes.homepage.breadcrumb',['title' => 'Cart List'])
+    @include('frontend.includes.homepage.breadcrumb',['title' => 'Confirm Order'])
     <div class="user-dashboard">
         <div class="container">
             <div class="row">
@@ -14,21 +14,38 @@
                         <div class="user-block">
                             <div class="site-header">
                                 <div class="head">
-                                    <h5>My cart </h5>
+                                    <h5>Confirm Order</h5>
                                 </div>
-                                <div class="right">
-                                    <ul>
-                                        <li class="checkbox">
-                                            <input type="checkbox" id="test1" name="checkbox-group" checked>
-                                            <label for="test1">6/6 selected</label>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                <i class="las la-trash"></i>Delete All
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
+                            </div>
+                            <div class="delivery confirm">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Shipping Details</th>
+                                            <th>Billing Details</th>
+                                            <th>Payment Method Selected</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p><i class="las la-map-marker"></i>Santana, Ghorahi Chwok, Koteshwor
+                                                    Area
+                                                    - Kathmandu Metro 32, Kathmandu</p>
+                                                <p><i class="las la-phone-alt"></i>9804632166</p>
+                                            </td>
+                                            <td>
+                                                <p><i class="las la-map-marker"></i>Santana, Ghorahi Chwok, Koteshwor
+                                                    Area
+                                                    - Kathmandu Metro 32, Kathmandu</p>
+                                                <p><i class="las la-phone-alt"></i>9804632166</p>
+                                            </td>
+                                            <td>
+                                                <p><img src="img/pay/e-sewa.png" alt=""></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                             <div class="order history cart">
                                 <ul>
@@ -163,22 +180,9 @@
                                         </a>
                                     </li>
                                 </ul>
-
-                                <nav aria-label="..." class="mt-4">
-                                    <ul class="pagination">
-                                        <li class="page-item disabled">
-                                            <span class="page-link">Previous</span>
-                                        </li>
-                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                        <li class="page-item active" aria-current="page">
-                                            <span class="page-link">2</span>
-                                        </li>
-                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="#">Next</a>
-                                        </li>
-                                    </ul>
-                                </nav>
+                                <div class="button text-center">
+                                    <button  class=" site-button ">Pay From Esewa</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -207,9 +211,9 @@
                                 </div>
                             </div>
                             <div class="custom-block list-mid">
-                               <h6>Buying for loved ones?</h6>
-                               <p>Gift wrap and personalized message only at Rs 50</p>
-                               <button class="site-button btn">Gift a card</button>
+                                <h6>Buying for loved ones?</h6>
+                                <p>Gift wrap and personalized message only at Rs 50</p>
+                                <button class="site-button btn">Gift a card</button>
                             </div>
                         </div>
                         <div class="user-block">
@@ -219,16 +223,14 @@
                                 </div>
                             </div>
                             <div class="custom-block">
-                              <ul>
-                                  <li>Total MRP <b>Rs 1429</b></li>
-                                  <li>Discount on MRP <b>Rs 400</b></li>
-                                  <li>Cupon Discount <b>Rs 600</b></li>
-                                  <li>Convinence Fee <b><span class="past">Rs 150</span><span class="present">Rs 600</span></b></li>
-                                  <li class="total">Total Amount <b>Rs 13999</b></li>
-                              </ul>
-                            </div>
-                            <div class="button">
-                                <a href="{{url('cart-list-proceed')}}" class="btn site-button all-button">Place Order</a>
+                                <ul>
+                                    <li>Total MRP <b>Rs 1429</b></li>
+                                    <li>Discount on MRP <b>Rs 400</b></li>
+                                    <li>Cupon Discount <b>Rs 600</b></li>
+                                    <li>Convinence Fee <b><span class="past">Rs 150</span><span class="present">Rs
+                                                600</span></b></li>
+                                    <li class="total">Total Amount <b>Rs 13999</b></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -237,5 +239,6 @@
         </div>
     </div>
 </section>
+
 
 @endsection

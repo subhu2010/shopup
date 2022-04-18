@@ -33,3 +33,15 @@ Route::get('cart-list', function () {
     return view('frontend.pages.cart-list');
 });
 
+Route::get('cart-list-proceed', function () {
+    return view('frontend.pages.proceed');
+});
+
+Route::get('payment', function () {
+    return view('frontend.pages.payment');
+});
+
+Route::get('confirm', function () {
+    return view('frontend.pages.confirm');
+});
+

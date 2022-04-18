@@ -3242,7 +3242,7 @@ header .main__nav .nav .custon__nav__link {
   padding: 0.9375rem;
 }
 .user-dashboard .user-content .user-block .delivery .delivery-block.delivery-left {
-  background: #ffdcdc;
+  background: rgba(195, 150, 150, 0.2);
 }
 .user-dashboard .user-content .user-block .delivery .delivery-block.delivery-left input {
   background: #fff;
