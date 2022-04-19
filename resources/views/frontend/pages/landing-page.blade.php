@@ -10,37 +10,60 @@
             <div class="col-lg-3">
                 <div class="sidebar-left d-none d-sm-none d-md-none d-lg-block">
                     <ul>
-                        <li class="child"><a href="javascript:void(0)" class="active">Riding Gears</a>
-                            <!-- <span><i class="las la-angle-right"></i></span>
+                        <li class="child">
+                            <a href="javascript:void(0)" class="active">Halal Foods & Grocery</a>
+                            <span><i class="las la-angle-right"></i></span>
                             <div class="mega-child">
                                 <ul>
-                                    <li><a href="">Beon Mask</a>
+                                    <li child="child">
+                                        <a href="javascript:void(0)">Rice</a>
+                                        <span><i class="las la-angle-right"></i></span>
+                                        <div class="mega-child-sub">
+                                            <ul>
+                                                <li><a href="javascript:void(0)">Rice</a> </li>
+                                                <li><a href="javascript:void(0)">Meat</a></li>
+                                                <li><a href="javascript:void(0)">Spices & Dals</a></li>
+                                                <li><a href="javascript:void(0)">Ghee & Oil</a></li>
+                                                <li><a href="javascript:void(0)">Dal & Beans</a></li>
+                                                <li><a href="javascript:void(0)">Spices</a> </li>
+                                                <li><a href="javascript:void(0)">Vegetables</a></li>
+                                                <li><a href="javascript:void(0)">Maida</a></li>
+                                                <li><a href="javascript:void(0)">Pickles</a></li>
+                                            </ul>
+                                        </div>
                                     </li>
-                                    <li><a href="">Riding
-                                            Jackets</a></li>
-                                    <li><a href="">Snap Back
-                                            Caps</a></li>
-                                    <li><a href="">Knee
-                                            guard and Elbow Guard</a></li>
-                                    <li><a href="">Riding
-                                            goggles</a></li>
-                                    <li><a href="">Shoe saver</a>
-                                    </li>
-                                    <li><a href="">Helmet
-                                            Intercom</a></li>
-                                    <li><a href="">Riding
-                                            Jersey</a></li>
-                                    <li><a href="">Helmet,
-                                            Visor and Mohawk</a></li>
+                                    <li><a href="javascript:void(0)">Meat</a></li>
+                                    <li><a href="javascript:void(0)">Spices & Dals</a></li>
+                                    <li><a href="javascript:void(0)">Ghee & Oil</a></li>
+                                    <li><a href="javascript:void(0)">Dal & Beans</a></li>
+                                    <li><a href="javascript:void(0)">Spices</a> </li>
+                                    <li><a href="javascript:void(0)">Vegetables</a></li>
+                                    <li><a href="javascript:void(0)">Maida</a></li>
+                                    <li><a href="javascript:void(0)">Pickles</a></li>
                                 </ul>
-                            </div> -->
+                            </div>
                         </li>
-                        <li><a href="javascript:void(0)">Baby & Children Accesories</a></li>
-                        <li><a href="javascript:void(0)">Jewellery</a></li>
-                        <li><a href="javascript:void(0)">Bags & Luggage</a></li>
-                        <li><a href="javascript:void(0)">Men's Accessories</a></li>
-                        <li><a href="javascript:void(0)">Men's Clothing</a></li>
-                        <li><a href="javascript:void(0)">Men's Shoes</a></li>
+                        <li class="child">
+                            <a href="javascript:void(0)">Electronic Devices</a>
+                            <span><i class="las la-angle-right"></i></span>
+                            <div class="mega-child">
+                                <ul>
+                                    <li child="child"><a href="javascript:void(0)">Smartphones</a></li>
+                                    <li><a href="javascript:void(0)">Feature Phones</a></li>
+                                    <li><a href="javascript:void(0)">Tablets</a></li>
+                                    <li><a href="javascript:void(0)">Laptops</a></li>
+                                    <li><a href="javascript:void(0)">Desktops</a></li>
+                                    <li><a href="javascript:void(0)">Gaming Consoles</a> </li>
+                                    <li><a href="javascript:void(0)">Cameras</a></li>
+                                    <li><a href="javascript:void(0)">Printers</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="javascript:void(0)">Babies & Toys</a></li>
+                        <li><a href="javascript:void(0)">Men's Fashion</a></li>
+                        <li><a href="javascript:void(0)">Women`s Fashion</a></li>
+                        <li><a href="javascript:void(0)">Books, Comics & Magazines</a></li>
+                        <li><a href="javascript:void(0)">Sell - Used goods</a></li>
                         <li><a href="javascript:void(0)">Sunglasses</a></li>
                         <li><a href="javascript:void(0)">Thrift Store</a></li>
                         <li><a href="javascript:void(0)">Helmet, Visor and Mohawk</a></li>

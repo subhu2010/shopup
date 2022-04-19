@@ -292,7 +292,7 @@ hr {
   outline: none;
   background: transparent;
   text-align: center;
-  color: #0d6c81;
+  color: #C39696;
   border-radius: 10px;
   cursor: pointer;
   font-size: 20px;
@@ -365,7 +365,7 @@ select:focus-visible {
 }
 
 .site-button {
-  background: #0d6c81;
+  background: #C39696;
   padding: 10px 22px;
   color: #fff;
   border-radius: 4px;
@@ -409,7 +409,7 @@ table tr td i.la-trash {
 }
 
 .modal-parent .modal-header {
-  background-color: #0d6c81;
+  background-color: #C39696;
   color: #fff;
   padding: 0.75rem;
 }
@@ -442,7 +442,7 @@ table tr td i.la-trash {
 }
 .modal-parent .modal-body ul li .parent-block .icon {
   margin-right: 12px;
-  background-color: #0d6c81;
+  background-color: #C39696;
   height: 1.5rem;
   width: 1.5rem;
   border-radius: 100%;
@@ -485,7 +485,7 @@ table tr td i.la-trash {
   display: block;
 }
 .modal-parent .modal-footer a {
-  color: #0d6c81;
+  color: #C39696;
 }
 .modal-parent .modal-footer a:hover {
   text-decoration: underline;
@@ -508,7 +508,7 @@ table tr td i.la-trash {
 }
 .dashboard ul li .parent-block .icon {
   margin-right: 12px;
-  background-color: #0d6c81;
+  background-color: #C39696;
   height: 1.5rem;
   width: 1.5rem;
   border-radius: 100%;
@@ -657,7 +657,7 @@ table tr td i.la-trash {
 .custom-table table tbody tr th,
 .custom-table table tfoot tr th {
   font-weight: normal;
-  background: #0d6c81;
+  background: #C39696;
   color: #fff;
 }
 .custom-table table.no-footer {
@@ -683,7 +683,7 @@ nav ol li {
 }
 nav .breadcrumb li.active,
 nav ol li.active {
-  color: #0d6c81;
+  color: #C39696;
 }
 nav .breadcrumb li.active::before,
 nav ol li.active::before {
@@ -772,7 +772,7 @@ nav ol li a {
   border-radius: 50%;
   background: #ffffff;
   font-size: 14px;
-  color: #0d6c81;
+  color: #C39696;
   line-height: 1.3;
   position: absolute;
   top: 50%;
@@ -780,28 +780,28 @@ nav ol li a {
   transform: translate(-50%, -50%);
 }
 .progress.one .progress-bar {
-  border-color: #0d6c81;
+  border-color: #C39696;
 }
 .progress.one .progress-left .progress-bar {
   -webkit-animation: loading-1 1.5s linear forwards 1.8s;
           animation: loading-1 1.5s linear forwards 1.8s;
 }
 .progress.two .progress-bar {
-  border-color: #0d6c81;
+  border-color: #C39696;
 }
 .progress.two .progress-left .progress-bar {
   -webkit-animation: loading-2 1.6s linear forwards 1.9s;
           animation: loading-2 1.6s linear forwards 1.9s;
 }
 .progress.three .progress-bar {
-  border-color: #0d6c81;
+  border-color: #C39696;
 }
 .progress.three .progress-left .progress-bar {
   -webkit-animation: loading-3 1.7s linear forwards 2s;
           animation: loading-3 1.7s linear forwards 2s;
 }
 .progress.four .progress-bar {
-  border-color: #0d6c81;
+  border-color: #C39696;
 }
 .progress.four .progress-left .progress-bar {
   -webkit-animation: loading-4 1.8s linear forwards 2.1s;
@@ -852,7 +852,7 @@ nav ol li a {
   text-transform: capitalize;
 }
 .site-header a:hover {
-  color: #0d6c81;
+  color: #C39696;
 }
 .site-header span {
   color: #D01010;
@@ -874,7 +874,7 @@ nav ol li a {
   transition: 0.5s;
 }
 .header .header_toggle {
-  color: #0d6c81;
+  color: #C39696;
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -912,7 +912,7 @@ nav ol li a {
   background-color: #D01010;
 }
 .header .user-wrap li i {
-  color: #0d6c81;
+  color: #C39696;
   font-size: 22px;
 }
 .header .user-wrap li:last-child {
@@ -945,7 +945,7 @@ nav ol li a {
   left: -30%;
   width: 68px;
   min-height: 100vh;
-  background-color: #0d6c81;
+  background-color: #C39696;
   padding: 0.5rem 1rem 0 0;
   transition: 0.5s;
   z-index: 100;
@@ -1138,7 +1138,7 @@ nav ol li a {
   transition: all 0.3s ease-in-out;
 }
 .content .content-wrap .content-block a .icon i {
-  color: #0d6c81;
+  color: #C39696;
   font-size: 20px;
 }
 .content .content-wrap .content-block a .custom-head {
@@ -1170,7 +1170,7 @@ nav ol li a {
   font-size: 0.875rem;
 }
 .content .content-wrap .content-block a:hover .num {
-  background: #0d6c81;
+  background: #C39696;
   color: #fff;
 }
 .content .content-wrap .content-block.custom--block {
@@ -1194,7 +1194,7 @@ nav ol li a {
   background: transparent;
 }
 .content .content-wrap .content-block.custom--block .content__head .date button.show {
-  color: #0d6c81;
+  color: #C39696;
 }
 .content .content-wrap .content-block.custom--block .content__head .date ul {
   padding: 0;
@@ -1229,7 +1229,7 @@ nav ol li a {
   color: #333;
 }
 .content .content-wrap .content-block.custom--block .content__head .view a:hover {
-  color: #0d6c81;
+  color: #C39696;
 }
 .content .content-wrap .content-block.custom--block .content__head .head ul {
   margin: 0;
@@ -1247,7 +1247,7 @@ nav ol li a {
   text-transform: capitalize;
 }
 .content .content-wrap .content-block.custom--block .content__head .head ul li a:hover {
-  color: #0d6c81;
+  color: #C39696;
 }
 .content .content-wrap .content-block.custom--block .content__body .chart {
   position: relative;
@@ -1287,8 +1287,8 @@ nav ol li a {
   font-size: 0.875rem;
 }
 .content .content-wrap .nav li button.active {
-  color: #0d6c81;
-  border-bottom: 1px solid #0d6c81;
+  color: #C39696;
+  border-bottom: 1px solid #C39696;
 }
 .content .content-wrap .tab-content .nav {
   border-bottom: 0;
@@ -1395,7 +1395,7 @@ nav ol li a {
   display: none;
 }
 .content .content-wrap .custom-menu .current-path ul li a {
-  color: #0d6c81;
+  color: #C39696;
 }
 .content .content-wrap .custom-menu .current-path ul li:hover {
   background: transparent;

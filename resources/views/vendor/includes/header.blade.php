@@ -28,7 +28,8 @@
         <li>
             <div class="user dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                <img src="https://i.imgur.com/hczKIze.jpg" alt="">
+                <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80"
+                    alt="">
                 <div class="user__info custom-head">
                     <h6>John Doe</h6>
                 </div>
@@ -44,5 +45,8 @@
         </li>
     </ul>
 </header>
+
+@include('vendor.includes.sidebar')
+
 
 @include('vendor.includes.modal')

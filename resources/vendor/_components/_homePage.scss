@@ -13,7 +13,7 @@
     z-index: 100;
     transition: 0.5s;
     .header_toggle {
-        color: $green;
+        color: $orientalPink;
         font-size: 1.5rem;
         cursor: pointer;
     }
@@ -51,7 +51,7 @@
                 background-color: $red;
             }
             i {
-                color: $green;
+                color: $orientalPink;
                 font-size: 22px;
             }
             &:last-child {
@@ -87,7 +87,7 @@
     left: -30%;
     width: 68px;
     min-height: 100vh;
-    background-color: $green;
+    background-color: $orientalPink;
     padding: 0.5rem 1rem 0 0;
     transition: 0.5s;
     z-index: 100;
@@ -296,7 +296,7 @@
                 transition: all .3s ease-in-out;
                 .icon {
                     i {
-                        color: $green;
+                        color: $orientalPink;
                         font-size: 20px;
                     }
                 }
@@ -330,7 +330,7 @@
                 }
                 &:hover{
                     .num{
-                        background: $green;
+                        background: $orientalPink;
                         color: #fff;
                     }
                 }
@@ -354,7 +354,7 @@
                             padding: 0;
                             background: transparent;
                             &.show {
-                                color: $green;
+                                color: $orientalPink;
                             }
                         }
                         ul {
@@ -391,7 +391,7 @@
                         a {
                             color: $black;
                             &:hover {
-                                color: $green;
+                                color: $orientalPink;
                             }
                         }
                     }
@@ -409,7 +409,7 @@
                                     color: $black;
                                     text-transform: capitalize;
                                     &:hover {
-                                        color: $green;
+                                        color: $orientalPink;
                                     }
                                 }
                             }
@@ -459,8 +459,8 @@
                     background-color: transparent;
                     font-size: 0.875rem;
                     &.active {
-                        color: $green;
-                        border-bottom: 1px solid $green;
+                        color: $orientalPink;
+                        border-bottom: 1px solid $orientalPink;
                     }
                 }
             }
@@ -572,7 +572,7 @@
                             }
                         }
                         a {
-                            color: $green;
+                            color: $orientalPink;
                         }
 
                         &:hover {
