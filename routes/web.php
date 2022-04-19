@@ -45,3 +45,29 @@ Route::get('confirm', function () {
     return view('frontend.pages.confirm');
 });
 
+
+
+Route::get('user-dashboard', function () {
+    return view('frontend.pages.user-dashboard');
+});
+
+Route::get('user-order', function () {
+    return view('frontend.pages.user-order');
+});
+
+Route::get('user-wishlist', function () {
+    return view('frontend.pages.user-wishlist');
+});
+
+Route::get('user-edit', function () {
+    return view('frontend.pages.user-edit');
+});
+
+Route::get('user-cart', function () {
+    return view('frontend.pages.user-cart');
+});
+
+Route::get('user-history', function () {
+    return view('frontend.pages.user-history');
+});
+

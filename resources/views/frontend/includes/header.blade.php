@@ -211,8 +211,10 @@
                                     <input type="password" class="from-control">
                                 </div>
                                 <div class="form-footer">
-                                    <button type="submit" class="form-btn">Login <i
-                                            class="las la-long-arrow-alt-right"></i></button>
+                                    <a href="{{url('user-dashboard')}}" class="form-btn">Login <i
+                                            class="las la-long-arrow-alt-right"></i></a>
+                                    <!-- <button type="submit" class="form-btn">Login <i
+                                            class="las la-long-arrow-alt-right"></i></button> -->
                                     <a href="javascript:void(0)">Forgot Your Password?</a>
                                 </div>
                                 <hr>
