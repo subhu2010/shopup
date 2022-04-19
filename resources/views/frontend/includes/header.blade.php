@@ -97,7 +97,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="javascript:void(0)">
+                            <a href="{{url('user-wishlist')}}">
                                 <svg width="20" height="20" viewBox="0 0 16 14" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -135,7 +135,7 @@
                     <a class="nav-link custon__nav__link" href="{{url('listing-page')}}">Track my order</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custon__nav__link" href="{{url('listing-page')}}">Become seller</a>
+                    <a class="nav-link custon__nav__link" href="{{url('vendor-dashboard')}}">Become seller</a>
                 </li>
             </ul>
         </div>

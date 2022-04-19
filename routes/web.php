@@ -71,3 +71,13 @@ Route::get('user-history', function () {
     return view('frontend.pages.user-history');
 });
 
+
+
+
+
+
+
+// vendor route
+Route::get('vendor-dashboard', function () {
+    return view('vendor.pages.dashboard');
+});

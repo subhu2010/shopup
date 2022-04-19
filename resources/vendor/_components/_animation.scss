@@ -1,0 +1,45 @@
+// progressbar
+
+@keyframes loading-1{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(90deg);
+    }
+}
+@keyframes loading-2{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(80deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(70deg);
+    }
+}
+@keyframes loading-4{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(50deg);
+    }
+}
+// @keyframes loading-5{
+//     0%{
+//         transform: rotate(0deg);
+//     }
+//     100%{
+//         transform: rotate(126deg);
+//     }
+// }
+@media only screen and (max-width: 990px){
+    .progress{ margin-bottom: 20px; }
+}

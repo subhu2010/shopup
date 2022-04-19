@@ -6,7 +6,7 @@
 
 <section class="breadcrumb-wrap list-wrap">
     @include('frontend.includes.homepage.breadcrumb',['title' => 'History'])
-
+    
     <div class="user-dashboard ">
         <div class="container">
             <div class="row">
@@ -50,7 +50,7 @@
                                         <a href="#">
                                             <div class="order-block">
                                                 <div class="img">
-                                                    <img src="{{url('frontend/img/product/p-1.jpg')}}" alt="">
+                                                    <img src="{{asset('frontend/img/product/p-1.jpg')}}" alt="">
                                                 </div>
                                                 <div class="order-content">
                                                     <h6>Ezeekart silicone wall mounted toilet brush</h6>
@@ -77,7 +77,7 @@
                                         <a href="#">
                                             <div class="order-block">
                                                 <div class="img">
-                                                    <img src="{{url('frontend/img/product/p-1.jpg')}}" alt="">
+                                                    <img src="{{asset('frontend/img/product/p-1.jpg')}}" alt="">
                                                 </div>
                                                 <div class="order-content">
                                                     <h6>Ezeekart silicone wall mounted toilet brush</h6>
@@ -104,7 +104,7 @@
                                         <a href="#">
                                             <div class="order-block">
                                                 <div class="img">
-                                                    <img src="{{url('frontend/img/product/p-1.jpg')}}" alt="">
+                                                    <img src="{{asset('frontend/img/product/p-1.jpg')}}" alt="">
                                                 </div>
                                                 <div class="order-content">
                                                     <h6>Ezeekart silicone wall mounted toilet brush</h6>

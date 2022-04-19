@@ -1,0 +1,35 @@
+// Media Querry
+
+$mq-breakpoints: (
+    mobile: 320px,
+    tablet: 740px,
+    desktop: 980px,
+    wide: 1300px,
+);
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+}
+/* ============ desktop view .end// ============ */
+
+@media (min-width: 320px) and (max-width: 573px) {
+   
+}
+
+@media (min-width: 574px) and (max-width: 767px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+    
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+}
+@media all and (min-width: 1400px) {
+}
