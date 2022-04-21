@@ -36,9 +36,7 @@ $mq-breakpoints: (
     .navbar .nav-item .dropdown-menu {
         margin-top: 0;
     }
-    .header__right {
-        width: 100%;
-    }
+   
 }
 /* ============ desktop view .end// ============ */
 
@@ -71,7 +69,12 @@ $mq-breakpoints: (
                             #searchQueryInput {
                                 min-width: 100%;
                                 width: 10rem !important;
-                                border: 0.0625rem solid $paragraph;
+                                height: 2.8rem;
+                                outline: none;
+                                border: 0.0625rem solid transparent;
+                                border-radius: 0.25rem;
+                                padding: 0 0.75rem 0 4rem;
+                                background: #fafafa;
                             }
                             #searchQuerySubmit {
                                 height: auto;
@@ -1111,10 +1114,13 @@ $mq-breakpoints: (
                             margin-right: 0.5625rem;
                             #searchQueryInput {
                                 min-width: 100%;
-                                height: 2.3rem;
-                                width: 15rem;
-                                border: 0.0625rem solid $paragraph;
-                                padding: 0 0.75rem 0 2.1875rem;
+                                width: 10rem !important;
+                                height: 2.8rem;
+                                outline: none;
+                                border: 0.0625rem solid transparent;
+                                border-radius: 0.25rem;
+                                padding: 0 0.75rem 0 4rem;
+                                background: #fafafa;
                             }
                             #searchQuerySubmit {
                                 height: auto;
@@ -2834,10 +2840,13 @@ $mq-breakpoints: (
                             margin-right: 0.5625rem;
                             #searchQueryInput {
                                 min-width: 100%;
-                                height: 2.3rem;
-                                width: 9rem;
-                                border: 0.0625rem solid $paragraph;
-                                padding: 0 0.75rem 0 2.1875rem;
+                                width: 10rem !important;
+                                height: 2.8rem;
+                                outline: none;
+                                border: 0.0625rem solid transparent;
+                                border-radius: 0.25rem;
+                                padding: 0 0.75rem 0 4rem;
+                                background: #fafafa;
                             }
                             #searchQuerySubmit {
                                 height: auto;
@@ -4607,9 +4616,14 @@ $mq-breakpoints: (
                         width: auto;
                         .searchBar {
                             #searchQueryInput {
-                                min-width: auto;
-                                width: auto;
-                                border: 0.0625rem solid $paragraph;
+                                min-width: 100%;
+                                width: 10rem !important;
+                                height: 2.8rem;
+                                outline: none;
+                                border: 0.0625rem solid transparent;
+                                border-radius: 0.25rem;
+                                padding: 0 0.75rem 0 4rem;
+                                background: #fafafa;
                             }
                         }
                     }
@@ -4699,5 +4713,11 @@ $mq-breakpoints: (
 @media (min-width: 1200px) {
     .container {
         max-width: 1220px;
+    }
+}
+
+@media (max-width: 990px) {
+    .header__right {
+        width: 100%;
     }
 }
