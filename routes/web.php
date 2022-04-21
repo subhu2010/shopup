@@ -81,3 +81,43 @@ Route::get('user-history', function () {
 Route::get('vendor-dashboard', function () {
     return view('vendor.pages.dashboard');
 });
+
+Route::get('manageProduct', function () {
+    return view('vendor.pages.manageProduct');
+});
+
+Route::get('addProduct', function () {
+    return view('vendor.pages.addProduct');
+});
+
+Route::get('order', function () {
+    return view('vendor.pages.order');
+});
+
+Route::get('reviewManage', function () {
+    return view('vendor.pages.reviewManage');
+});
+
+Route::get('profile', function () {
+    return view('vendor.pages.profile');
+});
+
+Route::get('userManage', function () {
+    return view('vendor.pages.userManage');
+});
+
+Route::get('add', function () {
+    return view('vendor.pages.add');
+});
+
+Route::get('view', function () {
+    return view('vendor.pages.view');
+});
+
+Route::get('message', function () {
+    return view('vendor.pages.message');
+});
+
+Route::get('account', function () {
+    return view('vendor.pages.account');
+});

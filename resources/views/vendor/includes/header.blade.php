@@ -35,10 +35,10 @@
                 </div>
             </div>
             <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
-                <li><a href="add.php">Profile</a></li>
-                <li><a href="userManage.php">User Management</a></li>
-                <li><a href="view.php">Account Setting</a></li>
-                <li><a href="view.php">Chat Setting</a></li>
+                <li><a href="{{url('add')}}">Profile</a></li>
+                <li><a href="{{url('userManage')}}">User Management</a></li>
+                <li><a href="{{url('account')}}">Account Setting</a></li>
+                <li><a href="{{url('view')}}">Chat Setting</a></li>
                 <li><a class="" href="#">signout</a></li>
             </ul>
 

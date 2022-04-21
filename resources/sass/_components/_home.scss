@@ -572,7 +572,7 @@ header {
                         display: block;
                         text-transform: capitalize;
                         color: #7c7c7c;
-                        &.active {
+                        &:hover {
                             color: $black;
                             font-weight: 500;
                         }

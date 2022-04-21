@@ -10,7 +10,7 @@
              <div class="modal-body">
                  <ul>
                      <li>
-                         <a href="message.php">
+                         <a href="{{url('message')}}">
                              <div class="parent-block">
                                  <div class="icon">
                                      <i class="lab la-facebook-messenger"></i>
@@ -23,7 +23,7 @@
                          </a>
                      </li>
                      <li>
-                         <a href="message.php">
+                         <a href="{{url('message')}}">
                              <div class="parent-block">
                                  <div class="icon">
                                      <i class="lab la-facebook-messenger"></i>
@@ -36,7 +36,7 @@
                          </a>
                      </li>
                      <li>
-                         <a href="message.php">
+                         <a href="{{url('message')}}">
                              <div class="parent-block">
                                  <div class="icon">
                                      <i class="lab la-facebook-messenger"></i>
@@ -49,7 +49,7 @@
                          </a>
                      </li>
                      <li>
-                         <a href="message.php">
+                         <a href="{{url('message')}}">
                              <div class="parent-block">
                                  <div class="icon">
                                      <i class="lab la-facebook-messenger"></i>
@@ -62,7 +62,7 @@
                          </a>
                      </li>
                      <li>
-                         <a href="message.php">
+                         <a href="{{url('message')}}">
                              <div class="parent-block">
                                  <div class="icon">
                                      <i class="lab la-facebook-messenger"></i>
@@ -76,10 +76,10 @@
                      </li>
                  </ul>
 
-                 <!-- <a class="dropdown-item text-center small text-gray-500" href="message.php">Show All Alerts</a> -->
+                 <!-- <a class="dropdown-item text-center small text-gray-500" href="{{url('message')}}">Show All Alerts</a> -->
              </div>
              <div class="modal-footer ">
-                 <a href="message.php">Show all alerts
+                 <a href="{{url('message')}}">Show all alerts
                  </a>
              </div>
          </div>
@@ -99,10 +99,10 @@
              <div class="modal-body">
                  <ul>
                      <li>
-                         <a href="message.php">
+                         <a href="{{url('message')}}">
                              <div class="parent-block">
                                  <div class="icon image">
-                                     <img src="img/user.svg" alt="user">
+                                     <img src="{{asset('vendor/img/user.svg')}}" alt="user">
                                  </div>
                                  <div class="block-content">
                                      <h6>December 12, 2019</h6>
@@ -112,10 +112,10 @@
                          </a>
                      </li>
                      <li>
-                         <a href="message.php">
+                         <a href="{{url('message')}}">
                              <div class="parent-block">
                                  <div class="icon image">
-                                     <img src="img/user.svg" alt="user">
+                                     <img src="{{asset('vendor/img/user.svg')}}" alt="user">
                                  </div>
                                  <div class="block-content">
                                      <h6>December 12, 2019</h6>
@@ -125,10 +125,10 @@
                          </a>
                      </li>
                      <li>
-                         <a href="message.php">
+                         <a href="{{url('message')}}">
                              <div class="parent-block">
                                  <div class="icon image">
-                                     <img src="img/user.svg" alt="user">
+                                     <img src="{{asset('vendor/img/user.svg')}}" alt="user">
                                  </div>
                                  <div class="block-content">
                                      <h6>December 12, 2019</h6>
@@ -138,10 +138,10 @@
                          </a>
                      </li>
                      <li>
-                         <a href="message.php">
+                         <a href="{{url('message')}}">
                              <div class="parent-block">
                                  <div class="icon image">
-                                     <img src="img/user.svg" alt="user">
+                                     <img src="{{asset('vendor/img/user.svg')}}" alt="user">
                                  </div>
                                  <div class="block-content">
                                      <h6>December 12, 2019</h6>
@@ -151,10 +151,10 @@
                          </a>
                      </li>
                      <li>
-                         <a href="message.php">
+                         <a href="{{url('message')}}">
                              <div class="parent-block">
                                  <div class="icon image">
-                                     <img src="img/user.svg" alt="user">
+                                     <img src="{{asset('vendor/img/user.svg')}}" alt="user">
                                  </div>
                                  <div class="block-content">
                                      <h6>December 12, 2019</h6>
@@ -165,10 +165,10 @@
                      </li>
                  </ul>
 
-                 <!-- <a class="dropdown-item text-center small text-gray-500" href="message.php">Show All Alerts</a> -->
+                 <!-- <a class="dropdown-item text-center small text-gray-500" href="{{url('message')}}">Show All Alerts</a> -->
              </div>
              <div class="modal-footer ">
-                 <a href="message.php">Show all alerts
+                 <a href="{{url('message')}}">Show all alerts
                  </a>
              </div>
          </div>

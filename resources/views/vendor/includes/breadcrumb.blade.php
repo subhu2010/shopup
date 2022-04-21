@@ -7,7 +7,7 @@
                     fill="#D01010" />
             </svg></li>
         <li class="breadcrumb-item active" aria-current="page">
-            <?php echo $title ?>
+            {{$title}}
         </li>
     </ol>
 </nav>

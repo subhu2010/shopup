@@ -5,7 +5,7 @@
     <!--  meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mahuri Seller Center</title>
+    <title>Shophab</title>
 
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon.png">

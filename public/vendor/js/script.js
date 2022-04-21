@@ -158,7 +158,7 @@ const ctx = document.getElementById("myChart").getContext('2d');
 
 // gradient fill
 let gradient = ctx.createLinearGradient(0, 0, 0, 400);
-gradient.addColorStop(0, "#0d6c81");
+gradient.addColorStop(0, "#C39696");
 gradient.addColorStop(1, "#FFDCDC");
 
 
