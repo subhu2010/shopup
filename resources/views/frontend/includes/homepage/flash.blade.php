@@ -1,11 +1,10 @@
 <!-- products -->
-<section class="products spacing" id="start">
+<section class="products spacing-top" id="start">
     <div class="container">
         <div class="site-header">
             <h5>
             {{ $title }}
             </h5>
-            <a href="listing.php">See all </a>
         </div>
         <div class="flash-wrap owl-carousel">
             <div class="product-wrap">

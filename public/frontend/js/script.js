@@ -274,19 +274,18 @@ $('.latest-list-slider').owlCarousel({
 
 $('.similar-product').owlCarousel({
    loop: true,
+   margin: 15,
    responsiveClass: true,
    dots: false,
-   margin: 15,
-   autoplay: true,
-   autoplayTimeout: 4500,
    nav: true,
-   navText: ["<img src='frontend/img/three/arrow-left.svg'>", "<img src='frontend/img/three/arrow-right.svg'>"],
+   navText: ["<img src='../frontend/img/three/arrow-left.svg'>", "<img src='../frontend/img/three/arrow-right.svg'>"],
    responsive: {
       0: {
          items: 2,
+         nav: true
       },
       600: {
-         items: 5,
+         items: 3,
          nav: true
       },
       1000: {
@@ -297,6 +296,7 @@ $('.similar-product').owlCarousel({
          items: 5,
          nav: true
       }
+
    }
 });
 
@@ -476,3 +476,21 @@ progressJs("#progress").set(10).autoIncrease(4, 500); //every 500 milliseconds, 
 
 
 
+function openFiler() {
+   document.getElementById("mb-view").style.width = "100%";
+}
+
+function closeFiler() {
+   document.getElementById("mb-view").style.width = "0%";
+}
+
+$(window).resize(function() {
+   if ($(window).width() > 1024) {
+       document.getElementById("mb-view").style.width = "100%";
+   }
+});
+$(window).resize(function() {
+   if ($(window).width() < 1023) {
+       document.getElementById("mb-view").style.width = "0%";
+   }
+});

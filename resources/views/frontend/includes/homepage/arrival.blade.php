@@ -1,4 +1,4 @@
-<section class="arival spacing">
+<section class="arival spacing-top">
     <div class="container">
         <div class="site-header">
             <h5>Catagories</h5>

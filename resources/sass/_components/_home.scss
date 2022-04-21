@@ -655,6 +655,19 @@ header {
             right: 0;
             bottom: 0;
         }
+        .items {
+            height: 100%;
+            img {
+                height: 100%;
+            }
+        }
+    }
+    .owl-item,
+    .owl-stage,
+    .owl-stage-outer,
+    .banner-carousel,
+    .banner-right {
+        height: 100%;
     }
 
     .banner-block {
@@ -1586,7 +1599,7 @@ header {
                             border: none;
                             padding: 0;
                             &:first-child {
-                                width: 8vw;
+                                width: 10vw;
                             }
                             span {
                                 font-size: 1rem;
@@ -2217,7 +2230,7 @@ footer {
             padding: 0;
             margin: 0;
             text-align: left;
-
+            > a,
             > button {
                 font-size: 1rem;
                 color: $black;
@@ -2284,4 +2297,9 @@ footer {
             cursor: pointer;
         }
     }
+}
+
+
+#mb-view {
+    width: 100%;
 }

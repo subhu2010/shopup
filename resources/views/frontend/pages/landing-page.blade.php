@@ -78,36 +78,6 @@
                             <img class="lazyload" loading="lazy" src="{{asset('frontend/img/slider/slider-5.jpg')}}"
                                 alt="">
                         </div>
-                        <div class="items">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6 col-md-6 col-sm-12">
-                                    <div class="banner-block">
-                                        <h2>Shop Your <br> favourite products</h2>
-                                        <h5>Welcome to Laxxery world</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor
-                                            incididunt
-                                            ut
-                                            labore
-                                            et dolore magna aliqua. Id donec ultrices tincidunt arcu non sodales neque
-                                            sodales.
-                                            Porttitor
-                                            rhoncus dolor purus non enim. Amet nisl suscipit adipiscing bibendum est
-                                            ultricies
-                                            integer quis
-                                            auctor.</p>
-                                        <button class="site-button">Explore now</button>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12">
-                                    <div class="banner-block">
-                                        <img class="lazyload" loading="lazy"
-                                            src="{{asset('frontend/img/slider/banner-img.png')}}" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
 
@@ -172,7 +142,7 @@
 
 @include('frontend.includes.homepage.advertise')
 
-<section class="products spacing" id="start">
+<section class="products spacing-top" id="start">
     <div class="container">
         <div class="site-header">
             <h5>
@@ -805,7 +775,7 @@
 
 @include('frontend.includes.homepage.advertise')
 
-<section class="tab-product spacing">
+<section class="tab-product spacing-top">
     <div class="container">
         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">

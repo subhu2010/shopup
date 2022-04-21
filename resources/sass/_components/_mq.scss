@@ -36,6 +36,9 @@ $mq-breakpoints: (
     .navbar .nav-item .dropdown-menu {
         margin-top: 0;
     }
+    .header__right {
+        width: 100%;
+    }
 }
 /* ============ desktop view .end// ============ */
 
@@ -118,7 +121,7 @@ $mq-breakpoints: (
                     li {
                         margin: 0 -3px;
                         padding: 0;
-                        background: $red;
+                        background: $orientalPink;
                         width: 12.5rem;
                         display: inline-block;
                         text-align: center;
@@ -148,7 +151,7 @@ $mq-breakpoints: (
                                 font-size: 1.0625rem;
                                 padding: 0.5rem 0;
                                 color: #fff;
-                                background: $red;
+                                background: $orientalPink;
                             }
                         }
                     }
@@ -167,7 +170,7 @@ $mq-breakpoints: (
                         .list__sidebar--block {
                             margin-bottom: 0.9375rem;
                             h5 {
-                                color: $red;
+                                color: $orientalPink;
                                 text-transform: capitalize;
                                 padding-bottom: 0.5625rem;
                             }
@@ -198,7 +201,7 @@ $mq-breakpoints: (
                                             content: "";
                                             -webkit-appearance: none;
                                             background-color: transparent;
-                                            border: 1px solid $red;
+                                            border: 1px solid $orientalPink;
                                             padding: 6px;
                                             display: inline-block;
                                             position: relative;
@@ -215,7 +218,7 @@ $mq-breakpoints: (
                                         left: 8px;
                                         width: 6px;
                                         height: 14px;
-                                        border: solid $red;
+                                        border: solid $orientalPink;
                                         border-width: 0 2px 2px 0;
                                         -webkit-transform: rotate(45deg);
                                         transform: rotate(45deg);
@@ -245,7 +248,7 @@ $mq-breakpoints: (
                                             margin: 0;
                                             padding: 0;
                                             i {
-                                                color: $red;
+                                                color: $orientalPink;
                                             }
                                             &.shade {
                                                 i {
@@ -295,7 +298,7 @@ $mq-breakpoints: (
                 span {
                     margin-left: 0.9375rem;
                     a {
-                        color: $red;
+                        color: $orientalPink;
                         &:hover {
                             text-decoration: underline;
                         }
@@ -309,7 +312,7 @@ $mq-breakpoints: (
                     margin-bottom: 0.625rem;
                     text-transform: capitalize;
                     span {
-                        color: $red;
+                        color: $orientalPink;
                         margin-left: 0.25rem;
                     }
                     i {
@@ -337,6 +340,9 @@ $mq-breakpoints: (
                             margin: 0 0.9375rem;
                         }
                     }
+                    .custom-button {
+                        display: block;
+                    }
                 }
             }
             .right-block {
@@ -350,7 +356,7 @@ $mq-breakpoints: (
                             display: inline-block;
                             margin: 0;
                             h4 {
-                                color: $red;
+                                color: $orientalPink;
                             }
                             &:not(:first-child) {
                                 margin-left: 2rem;
@@ -362,7 +368,7 @@ $mq-breakpoints: (
             .detail-info {
                 .price {
                     font-weight: 600;
-                    color: $red;
+                    color: $orientalPink;
                     margin: 6px 0;
                     font-size: 26px;
                 }
@@ -378,7 +384,7 @@ $mq-breakpoints: (
                             margin-right: 6px;
                             a {
                                 i {
-                                    color: $red;
+                                    color: $orientalPink;
                                 }
                             }
                         }
@@ -386,16 +392,16 @@ $mq-breakpoints: (
                 }
                 .all-button-- {
                     background: transparent;
-                    border: 2px solid $red;
-                    color: $red;
+                    border: 2px solid $orientalPink;
+                    color: $orientalPink;
                     transition: all 0.6s ease-in-out;
                     &:hover {
-                        background: $red;
+                        background: $orientalPink;
                         color: #fff;
                     }
                 }
                 .all-button {
-                    border: 2px solid $red;
+                    border: 2px solid $orientalPink;
                 }
             }
         }
@@ -424,7 +430,7 @@ $mq-breakpoints: (
                             font-size: inherit;
                         }
                         &:hover {
-                            background: $red;
+                            background: $orientalPink;
                             color: #fff;
                             i {
                                 color: #fff;
@@ -432,7 +438,7 @@ $mq-breakpoints: (
                         }
                     }
                     &.active {
-                        background: $red;
+                        background: $orientalPink;
                         color: #fff;
                         a {
                             i {
@@ -466,7 +472,7 @@ $mq-breakpoints: (
                         border-radius: 50%;
                         overflow: hidden;
                         padding: 0.25rem;
-                        border: 1px solid $red;
+                        border: 1px solid $orientalPink;
                         img {
                             height: 100%;
                             width: 100%;
@@ -555,7 +561,7 @@ $mq-breakpoints: (
                                     padding: 0.25rem 1.25rem;
                                     border-bottom-left-radius: 0.875rem;
                                     &.sold {
-                                        background: $red;
+                                        background: $orientalPink;
                                     }
                                     &.cancel {
                                         background: $black;
@@ -660,7 +666,7 @@ $mq-breakpoints: (
                                     object-fit: contain;
                                 }
                                 &.active {
-                                    border-color: $red;
+                                    border-color: $orientalPink;
                                 }
                             }
                         }
@@ -696,7 +702,7 @@ $mq-breakpoints: (
                 }
                 &.list-mid {
                     padding: 0.9375rem;
-                    border: 1px solid $red;
+                    border: 1px solid $orientalPink;
                     border-radius: 0.25rem;
                     h6 {
                         font-size: 1rem;
@@ -843,13 +849,13 @@ $mq-breakpoints: (
         font-size: 0.875rem;
     }
 
-    .list {
-        .list__content {
-            .col-lg-3 {
-                display: none;
-            }
-        }
-    }
+    // .list {
+    //     .list__content {
+    //         .col-lg-3 {
+    //             display: none;
+    //         }
+    //     }
+    // }
 
     .spacing {
         padding: 2.5rem 0;
@@ -1025,7 +1031,7 @@ $mq-breakpoints: (
                                     font-weight: normal;
                                     font-size: 1rem;
                                     &:hover {
-                                        color: $red;
+                                        color: $orientalPink;
                                     }
                                 }
                                 &:last-child {
@@ -1077,7 +1083,7 @@ $mq-breakpoints: (
                                                     text-decoration: none;
                                                     text-transform: capitalize;
                                                     &:hover {
-                                                        color: $red;
+                                                        color: $orientalPink;
                                                     }
                                                 }
                                                 &:last-child {
@@ -1163,7 +1169,7 @@ $mq-breakpoints: (
                 width: 0.5625rem;
                 margin-right: 0.5625rem;
                 &.active {
-                    background: $red;
+                    background: $orientalPink;
                 }
             }
         }
@@ -1233,7 +1239,7 @@ $mq-breakpoints: (
             margin-bottom: 1.25rem;
             width: 100%;
             .product-block {
-                border: 0.125rem solid $red;
+                border: 0.125rem solid $orientalPink;
                 .product__img {
                     height: 14.375rem;
                     img {
@@ -1303,7 +1309,7 @@ $mq-breakpoints: (
         .product__popular {
             h5 {
                 text-transform: uppercase;
-                color: $red;
+                color: $orientalPink;
             }
             .site-button {
                 margin: 0.9375rem 0;
@@ -1438,7 +1444,7 @@ $mq-breakpoints: (
         .bargain__wrap {
             padding: 0;
             h3 {
-                color: $red;
+                color: $orientalPink;
             }
             h5 {
                 font-size: 1rem;
@@ -1735,7 +1741,7 @@ $mq-breakpoints: (
             }
             .buy-block-right {
                 h3 {
-                    color: $red;
+                    color: $orientalPink;
                     text-transform: capitalize;
                 }
                 p {
@@ -1771,7 +1777,7 @@ $mq-breakpoints: (
         .join-wrap {
             margin-bottom: 1.25rem;
             padding-bottom: 1.25rem;
-            border-bottom: 1px solid $red;
+            border-bottom: 1px solid $orientalPink;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -1826,7 +1832,7 @@ $mq-breakpoints: (
                     li {
                         margin: 0 -3px;
                         padding: 0;
-                        background: $red;
+                        background: $orientalPink;
                         width: 12.5rem;
                         display: inline-block;
                         text-align: center;
@@ -1856,7 +1862,7 @@ $mq-breakpoints: (
                                 font-size: 1.0625rem;
                                 padding: 0.5rem 0;
                                 color: #fff;
-                                background: $red;
+                                background: $orientalPink;
                             }
                         }
                     }
@@ -1875,7 +1881,7 @@ $mq-breakpoints: (
                         .list__sidebar--block {
                             margin-bottom: 0.9375rem;
                             h5 {
-                                color: $red;
+                                color: $orientalPink;
                                 text-transform: capitalize;
                                 padding-bottom: 0.5625rem;
                             }
@@ -1906,7 +1912,7 @@ $mq-breakpoints: (
                                             content: "";
                                             -webkit-appearance: none;
                                             background-color: transparent;
-                                            border: 1px solid $red;
+                                            border: 1px solid $orientalPink;
                                             padding: 6px;
                                             display: inline-block;
                                             position: relative;
@@ -1923,7 +1929,7 @@ $mq-breakpoints: (
                                         left: 8px;
                                         width: 6px;
                                         height: 14px;
-                                        border: solid $red;
+                                        border: solid $orientalPink;
                                         border-width: 0 2px 2px 0;
                                         -webkit-transform: rotate(45deg);
                                         transform: rotate(45deg);
@@ -1953,7 +1959,7 @@ $mq-breakpoints: (
                                             margin: 0;
                                             padding: 0;
                                             i {
-                                                color: $red;
+                                                color: $orientalPink;
                                             }
                                             &.shade {
                                                 i {
@@ -1968,6 +1974,57 @@ $mq-breakpoints: (
                     }
                 }
             }
+        }
+    }
+
+    .trending-btn {
+        width: 100%;
+    }
+
+    #mb-view {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        transition: 0.5s;
+        background: $white;
+        background: rgba(0, 0, 0, 0.4);
+        .mb-content {
+            background: $white;
+            width: 50%;
+            .list-sidebar {
+                padding: 0 1.25rem 1.25rem 1.25rem;
+            }
+        }
+        .mb-header {
+            position: sticky;
+            top: 0;
+            z-index: 9;
+            width: 100%;
+            padding: 1rem;
+            background: $orientalPink;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid $orientalPink;
+            margin-bottom: 20px;
+            h5 {
+                margin-bottom: 0;
+                color: $white;
+            }
+        }
+        .closebtn {
+            color: $white;
+            font-size: 36px;
+        }
+        .trip-sidebar {
+            margin-top: 0;
+            border-radius: 0;
         }
     }
 
@@ -2003,7 +2060,7 @@ $mq-breakpoints: (
                 span {
                     margin-left: 0.9375rem;
                     a {
-                        color: $red;
+                        color: $orientalPink;
                         &:hover {
                             text-decoration: underline;
                         }
@@ -2017,7 +2074,7 @@ $mq-breakpoints: (
                     margin-bottom: 0.5625rem;
                     text-transform: capitalize;
                     span {
-                        color: $red;
+                        color: $orientalPink;
                         margin-left: 0.25rem;
                     }
                     i {
@@ -2046,6 +2103,9 @@ $mq-breakpoints: (
                             margin: 0 0.5625rem;
                         }
                     }
+                    .custom-button {
+                        display: block;
+                    }
                 }
             }
             .right-block {
@@ -2059,7 +2119,7 @@ $mq-breakpoints: (
                             display: inline-block;
                             margin: 0;
                             h4 {
-                                color: $red;
+                                color: $orientalPink;
                             }
                             &:not(:first-child) {
                                 margin-left: 2rem;
@@ -2071,7 +2131,7 @@ $mq-breakpoints: (
             .detail-info {
                 .price {
                     font-weight: 600;
-                    color: $red;
+                    color: $orientalPink;
                     margin: 6px 0;
                     font-size: 26px;
                 }
@@ -2087,7 +2147,7 @@ $mq-breakpoints: (
                             margin-right: 6px;
                             a {
                                 i {
-                                    color: $red;
+                                    color: $orientalPink;
                                 }
                             }
                         }
@@ -2095,16 +2155,16 @@ $mq-breakpoints: (
                 }
                 .all-button-- {
                     background: transparent;
-                    border: 2px solid $red;
-                    color: $red;
+                    border: 2px solid $orientalPink;
+                    color: $orientalPink;
                     transition: all 0.6s ease-in-out;
                     &:hover {
-                        background: $red;
+                        background: $orientalPink;
                         color: #fff;
                     }
                 }
                 .all-button {
-                    border: 2px solid $red;
+                    border: 2px solid $orientalPink;
                 }
             }
         }
@@ -2133,7 +2193,7 @@ $mq-breakpoints: (
                             font-size: inherit;
                         }
                         &:hover {
-                            background: $red;
+                            background: $orientalPink;
                             color: #fff;
                             i {
                                 color: #fff;
@@ -2141,7 +2201,7 @@ $mq-breakpoints: (
                         }
                     }
                     &.active {
-                        background: $red;
+                        background: $orientalPink;
                         color: #fff;
                         a {
                             i {
@@ -2175,7 +2235,7 @@ $mq-breakpoints: (
                         border-radius: 50%;
                         overflow: hidden;
                         padding: 0.25rem;
-                        border: 1px solid $red;
+                        border: 1px solid $orientalPink;
                         img {
                             height: 100%;
                             width: 100%;
@@ -2264,7 +2324,7 @@ $mq-breakpoints: (
                                     padding: 0.25rem 1.25rem;
                                     border-bottom-left-radius: 0.875rem;
                                     &.sold {
-                                        background: $red;
+                                        background: $orientalPink;
                                     }
                                     &.cancel {
                                         background: $black;
@@ -2369,7 +2429,7 @@ $mq-breakpoints: (
                                     object-fit: contain;
                                 }
                                 &.active {
-                                    border-color: $red;
+                                    border-color: $orientalPink;
                                 }
                             }
                         }
@@ -2405,7 +2465,7 @@ $mq-breakpoints: (
                 }
                 &.list-mid {
                     padding: 0.9375rem;
-                    border: 1px solid $red;
+                    border: 1px solid $orientalPink;
                     border-radius: 0.25rem;
                     h6 {
                         font-size: 1rem;
@@ -2694,7 +2754,7 @@ $mq-breakpoints: (
                                     font-weight: normal;
                                     font-size: 1rem;
                                     &:hover {
-                                        color: $red;
+                                        color: $orientalPink;
                                     }
                                 }
                                 &:last-child {
@@ -2746,7 +2806,7 @@ $mq-breakpoints: (
                                                     text-decoration: none;
                                                     text-transform: capitalize;
                                                     &:hover {
-                                                        color: $red;
+                                                        color: $orientalPink;
                                                     }
                                                 }
                                                 &:last-child {
@@ -2832,7 +2892,7 @@ $mq-breakpoints: (
                 width: 0.5625rem;
                 margin-right: 0.5625rem;
                 &.active {
-                    background: $red;
+                    background: $orientalPink;
                 }
             }
         }
@@ -2902,7 +2962,7 @@ $mq-breakpoints: (
             margin-bottom: 1.25rem;
             width: 100%;
             .product-block {
-                border: 0.125rem solid $red;
+                border: 0.125rem solid $orientalPink;
                 .product__img {
                     height: 14.375rem;
                     img {
@@ -2967,7 +3027,7 @@ $mq-breakpoints: (
         .product__popular {
             h5 {
                 text-transform: uppercase;
-                color: $red;
+                color: $orientalPink;
             }
             .site-button {
                 margin: 0.9375rem 0;
@@ -3104,7 +3164,7 @@ $mq-breakpoints: (
         .bargain__wrap {
             padding: 0;
             h3 {
-                color: $red;
+                color: $orientalPink;
             }
             h5 {
                 font-size: 1rem;
@@ -3401,7 +3461,7 @@ $mq-breakpoints: (
             }
             .buy-block-right {
                 h3 {
-                    color: $red;
+                    color: $orientalPink;
                     text-transform: capitalize;
                 }
                 p {
@@ -3437,7 +3497,7 @@ $mq-breakpoints: (
         .join-wrap {
             margin-bottom: 1.25rem;
             padding-bottom: 1.25rem;
-            border-bottom: 1px solid $red;
+            border-bottom: 1px solid $orientalPink;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -3492,7 +3552,7 @@ $mq-breakpoints: (
                     li {
                         margin: 0 -3px;
                         padding: 0;
-                        background: $red;
+                        background: $orientalPink;
                         width: 12.5rem;
                         display: inline-block;
                         text-align: center;
@@ -3522,7 +3582,7 @@ $mq-breakpoints: (
                                 font-size: 1.0625rem;
                                 padding: 0.5rem 0;
                                 color: #fff;
-                                background: $red;
+                                background: $orientalPink;
                             }
                         }
                     }
@@ -3541,7 +3601,7 @@ $mq-breakpoints: (
                         .list__sidebar--block {
                             margin-bottom: 0.9375rem;
                             h5 {
-                                color: $red;
+                                color: $orientalPink;
                                 text-transform: capitalize;
                                 padding-bottom: 0.5625rem;
                             }
@@ -3572,7 +3632,7 @@ $mq-breakpoints: (
                                             content: "";
                                             -webkit-appearance: none;
                                             background-color: transparent;
-                                            border: 1px solid $red;
+                                            border: 1px solid $orientalPink;
                                             padding: 6px;
                                             display: inline-block;
                                             position: relative;
@@ -3589,7 +3649,7 @@ $mq-breakpoints: (
                                         left: 8px;
                                         width: 6px;
                                         height: 14px;
-                                        border: solid $red;
+                                        border: solid $orientalPink;
                                         border-width: 0 2px 2px 0;
                                         -webkit-transform: rotate(45deg);
                                         transform: rotate(45deg);
@@ -3619,7 +3679,7 @@ $mq-breakpoints: (
                                             margin: 0;
                                             padding: 0;
                                             i {
-                                                color: $red;
+                                                color: $orientalPink;
                                             }
                                             &.shade {
                                                 i {
@@ -3669,7 +3729,7 @@ $mq-breakpoints: (
                 span {
                     margin-left: 0.9375rem;
                     a {
-                        color: $red;
+                        color: $orientalPink;
                         &:hover {
                             text-decoration: underline;
                         }
@@ -3683,7 +3743,7 @@ $mq-breakpoints: (
                     margin-bottom: 0.625rem;
                     text-transform: capitalize;
                     span {
-                        color: $red;
+                        color: $orientalPink;
                         margin-left: 0.25rem;
                     }
                     i {
@@ -3712,6 +3772,9 @@ $mq-breakpoints: (
                             margin: 0 0.9375rem;
                         }
                     }
+                    .custom-button {
+                        display: block;
+                    }
                 }
             }
             .right-block {
@@ -3725,7 +3788,7 @@ $mq-breakpoints: (
                             display: inline-block;
                             margin: 0;
                             h4 {
-                                color: $red;
+                                color: $orientalPink;
                             }
                             &:not(:first-child) {
                                 margin-left: 2rem;
@@ -3737,7 +3800,7 @@ $mq-breakpoints: (
             .detail-info {
                 .price {
                     font-weight: 600;
-                    color: $red;
+                    color: $orientalPink;
                     margin: 6px 0;
                     font-size: 26px;
                 }
@@ -3753,7 +3816,7 @@ $mq-breakpoints: (
                             margin-right: 6px;
                             a {
                                 i {
-                                    color: $red;
+                                    color: $orientalPink;
                                 }
                             }
                         }
@@ -3761,18 +3824,69 @@ $mq-breakpoints: (
                 }
                 .all-button-- {
                     background: transparent;
-                    border: 2px solid $red;
-                    color: $red;
+                    border: 2px solid $orientalPink;
+                    color: $orientalPink;
                     transition: all 0.6s ease-in-out;
                     &:hover {
-                        background: $red;
+                        background: $orientalPink;
                         color: #fff;
                     }
                 }
                 .all-button {
-                    border: 2px solid $red;
+                    border: 2px solid $orientalPink;
                 }
             }
+        }
+    }
+
+    .trending-btn {
+        width: 100%;
+    }
+
+    #mb-view {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        transition: 0.5s;
+        background: $white;
+        background: rgba(0, 0, 0, 0.4);
+        .mb-content {
+            background: $white;
+            width: 50%;
+            .list-sidebar {
+                padding: 0 1.25rem 1.25rem 1.25rem;
+            }
+        }
+        .mb-header {
+            position: sticky;
+            top: 0;
+            z-index: 9;
+            width: 100%;
+            padding: 1rem;
+            background: $orientalPink;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid $orientalPink;
+            margin-bottom: 20px;
+            h5 {
+                margin-bottom: 0;
+                color: $white;
+            }
+        }
+        .closebtn {
+            color: $white;
+            font-size: 36px;
+        }
+        .trip-sidebar {
+            margin-top: 0;
+            border-radius: 0;
         }
     }
 
@@ -3799,7 +3913,7 @@ $mq-breakpoints: (
                             font-size: inherit;
                         }
                         &:hover {
-                            background: $red;
+                            background: $orientalPink;
                             color: #fff;
                             i {
                                 color: #fff;
@@ -3807,7 +3921,7 @@ $mq-breakpoints: (
                         }
                     }
                     &.active {
-                        background: $red;
+                        background: $orientalPink;
                         color: #fff;
                         a {
                             i {
@@ -3841,7 +3955,7 @@ $mq-breakpoints: (
                         border-radius: 50%;
                         overflow: hidden;
                         padding: 0.25rem;
-                        border: 1px solid $red;
+                        border: 1px solid $orientalPink;
                         img {
                             height: 100%;
                             width: 100%;
@@ -3930,7 +4044,7 @@ $mq-breakpoints: (
                                     padding: 0.25rem 1.25rem;
                                     border-bottom-left-radius: 0.875rem;
                                     &.sold {
-                                        background: $red;
+                                        background: $orientalPink;
                                     }
                                     &.cancel {
                                         background: $black;
@@ -4035,7 +4149,7 @@ $mq-breakpoints: (
                                     object-fit: contain;
                                 }
                                 &.active {
-                                    border-color: $red;
+                                    border-color: $orientalPink;
                                 }
                             }
                         }
@@ -4071,7 +4185,7 @@ $mq-breakpoints: (
                 }
                 &.list-mid {
                     padding: 0.9375rem;
-                    border: 1px solid $red;
+                    border: 1px solid $orientalPink;
                     border-radius: 0.25rem;
                     h6 {
                         font-size: 1rem;
@@ -4249,7 +4363,7 @@ $mq-breakpoints: (
                 width: 0.5625rem;
                 margin-right: 0.5625rem;
                 &.active {
-                    background: $red;
+                    background: $orientalPink;
                 }
             }
         }
@@ -4259,7 +4373,7 @@ $mq-breakpoints: (
     .products {
         .product-wrap {
             .product-block {
-                border: 0.125rem solid $red;
+                border: 0.125rem solid $orientalPink;
                 .product__img {
                     height: 14.375rem;
                     img {
@@ -4297,7 +4411,7 @@ $mq-breakpoints: (
         .bargain__wrap {
             padding: 0 5rem;
             h3 {
-                color: $red;
+                color: $orientalPink;
                 font-weight: 600;
             }
             h5 {
@@ -4371,7 +4485,6 @@ $mq-breakpoints: (
             }
         }
     }
-    
 
     .tab-product {
         .tab-content {
@@ -4398,6 +4511,69 @@ $mq-breakpoints: (
         .login__block {
             width: 70%;
             padding: 15px;
+        }
+    }
+
+    .details {
+        .detail-right {
+            .detail-info {
+                .right-button {
+                    .custom-button {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    .trending-btn {
+        width: 100%;
+    }
+
+    #mb-view {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        transition: 0.5s;
+        background: $white;
+        background: rgba(0, 0, 0, 0.4);
+        .mb-content {
+            background: $white;
+            width: 50%;
+            .list-sidebar {
+                padding: 0 1.25rem 1.25rem 1.25rem;
+            }
+        }
+        .mb-header {
+            position: sticky;
+            top: 0;
+            z-index: 9;
+            width: 100%;
+            padding: 1rem;
+            background: $orientalPink;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid $orientalPink;
+            margin-bottom: 20px;
+            h5 {
+                margin-bottom: 0;
+                color: $white;
+            }
+        }
+        .closebtn {
+            color: $white;
+            font-size: 36px;
+        }
+        .trip-sidebar {
+            margin-top: 0;
+            border-radius: 0;
         }
     }
 }

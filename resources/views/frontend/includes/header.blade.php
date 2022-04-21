@@ -151,25 +151,40 @@
         </div>
         <ul class="accordion">
             <li class="sub-menu">
-                <button>Today's Featured Collections</button>
+                <button>Electronic Devices</button>
                 <ul class="child">
-                    <li><a href="javascript:void(0)">Press Every Button</a></li>
-                    <li><a href="javascript:void(0)">Travel with Technology</a></li>
-                    <li><a href="javascript:void(0)">Smart Choice</a></li>
-                    <li><a href="javascript:void(0)">Fall in Love with Tech</a></li>
-                    <li><a href="javascript:void(0)">Smartphones at a Snip</a></li>
+                    <li><a href="javascript:void(0)">Smartphones</a></li>
+                    <li><a href="javascript:void(0)">Feature Phones</a></li>
+                    <li><a href="javascript:void(0)">Tablets</a></li>
+                    <li><a href="javascript:void(0)">Laptops</a></li>
+                    <li><a href="javascript:void(0)">Desktops</a></li>
+                    <li><a href="javascript:void(0)">Gaming Consoles</a> </li>
+                    <li><a href="javascript:void(0)">Cameras</a></li>
+                    <li><a href="javascript:void(0)">Printers</a></li>
                 </ul>
             </li>
             <li class="sub-menu">
-                <button>Today's Featured Collections</button>
+                <button>Halal Foods & Grocery</button>
                 <ul class="child">
-                    <li><a href="javascript:void(0)">Press Every Button</a></li>
-                    <li><a href="javascript:void(0)">Travel with Technology</a></li>
-                    <li><a href="javascript:void(0)">Smart Choice</a></li>
-                    <li><a href="javascript:void(0)">Fall in Love with Tech</a></li>
-                    <li><a href="javascript:void(0)">Smartphones at a Snip</a></li>
+                    <li><a href="javascript:void(0)">Rice</a> </li>
+                    <li><a href="javascript:void(0)">Meat</a></li>
+                    <li><a href="javascript:void(0)">Spices & Dals</a></li>
+                    <li><a href="javascript:void(0)">Ghee & Oil</a></li>
+                    <li><a href="javascript:void(0)">Dal & Beans</a></li>
+                    <li><a href="javascript:void(0)">Spices</a> </li>
+                    <li><a href="javascript:void(0)">Vegetables</a></li>
+                    <li><a href="javascript:void(0)">Maida</a></li>
+                    <li><a href="javascript:void(0)">Pickles</a></li>
                 </ul>
             </li>
+            <li class="sub-menu"><a href="javascript:void(0)">Babies & Toys</a></li>
+            <li class="sub-menu"><a href="javascript:void(0)">Men's Fashion</a></li>
+            <li class="sub-menu"><a href="javascript:void(0)">Women`s Fashion</a></li>
+            <li class="sub-menu"><a href="javascript:void(0)">Books, Comics & Magazines</a></li>
+            <li class="sub-menu"><a href="javascript:void(0)">Sell - Used goods</a></li>
+            <li class="sub-menu"><a href="javascript:void(0)">Sunglasses</a></li>
+            <li class="sub-menu"><a href="javascript:void(0)">Thrift Store</a></li>
+            <li class="sub-menu"><a href="javascript:void(0)">Helmet, Visor and Mohawk</a></li>
         </ul>
     </div>
 
@@ -242,7 +257,8 @@
                                             class="las la-long-arrow-alt-right"></i></button>
                                     <div class="form-check">
                                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">I agree to the privacy policy</label>
+                                        <label class="form-check-label" for="exampleCheck1">I agree to the privacy
+                                            policy</label>
                                     </div>
                                 </div>
                                 <hr>

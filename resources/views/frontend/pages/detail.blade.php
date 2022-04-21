@@ -105,7 +105,7 @@
                                 </tr>
                                 <tr>
                                     <td class="table-left">
-                                        <span>color</span>
+                                        <span>avaliable color</span>
                                     </td>
                                     <td class="table-left">
                                         <div class="color">
