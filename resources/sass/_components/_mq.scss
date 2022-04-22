@@ -885,7 +885,7 @@ $mq-breakpoints: (
     }
 
     .sidebar {
-        width: 55%;
+        width: 100%;
     }
 
     // header
@@ -918,6 +918,9 @@ $mq-breakpoints: (
                         li {
                             border-right: 0;
                             &:not(:first-child) {
+                                // display: none;
+                            }
+                            &:last-child {
                                 display: none;
                             }
                         }
@@ -956,7 +959,7 @@ $mq-breakpoints: (
                     ul {
                         li {
                             &:first-child {
-                                display: none;
+                                // display: none;
                             }
                             &.custom-popup {
                                 .custom-body-popup {
@@ -2611,7 +2614,7 @@ $mq-breakpoints: (
     }
 
     .sidebar {
-        width: 55%;
+        width: 50%;
     }
 
     // header
@@ -2644,7 +2647,7 @@ $mq-breakpoints: (
                         li {
                             border-right: 0;
                             &:not(:first-child) {
-                                display: none;
+                                // display: none;
                             }
                         }
                     }
@@ -2653,7 +2656,7 @@ $mq-breakpoints: (
                             margin-right: 0.5625rem;
                             padding: 0;
                             &:last-child {
-                                display: none;
+                                // display: none;
                             }
                         }
                     }
@@ -2682,7 +2685,7 @@ $mq-breakpoints: (
                     ul {
                         li {
                             &:first-child {
-                                display: none;
+                                // display: none;
                             }
                             &.custom-popup {
                                 .custom-body-popup {
@@ -4335,7 +4338,7 @@ $mq-breakpoints: (
     }
 
     .sidebar {
-        width: 37%;
+        width: 50%;
     }
 
     .mobile-sidebar .offcanvas-header img {
@@ -4604,7 +4607,7 @@ $mq-breakpoints: (
     }
 
     .sidebar {
-        width: 25%;
+        width: 50%;
     }
 
     // header

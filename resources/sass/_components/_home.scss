@@ -1741,7 +1741,6 @@ header {
 
 // user-dashboard
 .user-dashboard {
-    background: #f5f5f5;
     .user-sidebar {
         padding: 0.9375rem 0;
         // box-shadow: $shadow;
@@ -1869,10 +1868,10 @@ header {
                     .order-block {
                         position: relative;
                         .action {
-                            margin: auto;
+                            // margin: auto;
                             padding: 0.9375rem;
                             display: flex;
-                            align-items: center;
+                            align-items: flex-end;
                             i {
                                 font-size: 1.5rem;
                                 margin-right: 0.9375rem;
@@ -1907,8 +1906,11 @@ header {
                 }
                 &.cart {
                     .cart-list {
-                        background: $light-red;
+                        background: $white;
                         box-shadow: none;
+                        box-shadow: $shadow;
+                        padding: 1.25rem;
+                        border-radius: 10px;
                         .img {
                             position: relative;
                             img {
@@ -1944,6 +1946,7 @@ header {
                                     width: 2.1875rem;
                                     height: 1.875rem;
                                     font-size: 1.0625rem;
+                                    background-color: $orientalPink;
                                 }
                                 input[type="text"] {
                                     height: 1.875rem;
@@ -1960,9 +1963,10 @@ header {
                     width: 50%;
                     padding: 0.9375rem;
                     &.delivery-left {
-                        background: $light-red;
                         input {
                             background: #fff;
+                            border: 1px solid #a9a9a9;
+                            border-radius: 5px;
                         }
                         select {
                             background: #fff;
@@ -2215,7 +2219,7 @@ footer {
 .sidebar {
     position: fixed;
     left: 0;
-    transform: translateX(-30rem);
+    transform: translateX(-90rem);
     top: 0;
     padding: 0rem;
     height: 100%;
@@ -2232,7 +2236,7 @@ footer {
             align-items: center;
             width: 50px;
             &:first-child {
-                width: calc(100% - 150px);
+                width: calc(100% - 200px);
                 text-align: left;
             }
             a {

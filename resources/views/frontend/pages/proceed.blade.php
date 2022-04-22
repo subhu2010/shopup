@@ -68,7 +68,7 @@
                                             </div>
 
                                             <div class="col-lg-12 col-md-12">
-                                                <div class="form-group">
+                                                <div class="form-group text-center">
                                                     <a href="{{url('payment')}}" class="site-button">Proceed to
                                                         Payment</a>
                                                 </div>

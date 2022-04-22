@@ -47,11 +47,11 @@ document.addEventListener("DOMContentLoaded", function () {
       (sidebarBlock).style.transform = 'translatex(0rem)';
       sidebbarOpacity.classList.add('active');
       cancel.addEventListener('click', function () {
-         (sidebarBlock).style.transform = 'translatex(-30rem)';
+         (sidebarBlock).style.transform = 'translatex(-90rem)';
          sidebbarOpacity.classList.remove('active')
       });
       sidebbarOpacity.addEventListener('click', function () {
-         (sidebarBlock).style.transform = 'translatex(-30rem)';
+         (sidebarBlock).style.transform = 'translatex(-90rem)';
          sidebbarOpacity.classList.remove('active')
       });
 

@@ -527,7 +527,6 @@ ol {
 
 .product-counter {
     display: flex;
-    border: 1px solid #C4C4C4;
     border-radius: .3125rem;
 }
 .custom-button input[type="text"] {
@@ -573,18 +572,19 @@ ol {
 .site-button {
     padding: 0.4rem 2rem;
     font-size: 0.9375rem;
-    color: $orientalPink;
-    background-color: transparent;
     text-transform: capitalize;
-    border: 0.0625rem solid $orientalPink;
     outline: none;
     font-weight: 600;
-    border-radius: 0.25rem;
+    border-radius: 0;
     display: inline-block;
     box-shadow: none;
+    background: $orientalPink;
+    border: 0.0625rem solid $orientalPink;
+    color: #fff;
     &:hover {
-        background: $orientalPink;
-        color: #fff;
+        border: 0.0625rem solid $orientalPink;
+        background: transparent;
+        color: $orientalPink;
     }
     i {
         color: #fff;
