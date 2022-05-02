@@ -49,13 +49,13 @@
                     </div>
                     <div class="detail-info">
                         <div class="right-button ">
-                            <div class="custom-button">
-                                <div class="product-counter">
+                            <div class="custom-button w-100">
+                                <div class="product-counter me-lg-4 mb-sm-4">
                                     <input id="minus" type="button" value="-" />
                                     <input id="quantity" type="text" value="1" name="quantity" />
                                     <input id="plus" type="button" value="+" />
                                 </div>
-                                <a href="javascript:void(0)" class="btn cart-btn ms-5">add to cart</a>
+                                <a href="javascript:void(0)" class="btn cart-btn">add to cart</a>
                             </div>
                         </div>
                     </div>

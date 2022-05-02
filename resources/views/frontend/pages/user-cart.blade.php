@@ -169,22 +169,27 @@
                                         </a>
                                     </li>
                                 </ul>
-
-                                <nav aria-label="..." class="mt-4">
-                                    <ul class="pagination">
-                                        <li class="page-item disabled">
-                                            <span class="page-link">Previous</span>
-                                        </li>
-                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                        <li class="page-item active" aria-current="page">
-                                            <span class="page-link">2</span>
-                                        </li>
-                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="#">Next</a>
-                                        </li>
+                            </div>
+                            <div class="user-block">
+                                <div class="site-header">
+                                    <div class="head">
+                                        <h5>Price Details</h5>
+                                    </div>
+                                </div>
+                                <div class="custom-block">
+                                    <ul>
+                                        <li>Total MRP <b>Rs 1429</b></li>
+                                        <li>Discount on MRP <b>Rs 400</b></li>
+                                        <li>Cupon Discount <b>Rs 600</b></li>
+                                        <li>Convinence Fee <b><span class="past">Rs 150</span><span class="present">Rs
+                                                    600</span></b></li>
+                                        <li class="total">Total Amount <b>Rs 13999</b></li>
                                     </ul>
-                                </nav>
+                                </div>
+                                <div class="button text-center">
+                                    <a href="{{url('cart-list-proceed')}}" class="btn site-button">Proceed to
+                                        Payment</a>
+                                </div>
                             </div>
                         </div>
                     </div>

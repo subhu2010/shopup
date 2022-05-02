@@ -148,7 +148,7 @@
                             </div>
 
                             <div class="mt-4 text-center">
-                                <a href="http://localhost/soft/shopup/public/confirm" class="site-button btn">Pay from Khalti</a>
+                                <a href="javascrip:void(0)" class="site-button btn">Pay from Khalti</a>
                             </div>
                         </div>
                     </div>

@@ -26,11 +26,10 @@
                             <div class="custom-block">
                                 <form action="">
                                     <div class="row">
-                                        <div class="col-lg-4 col-md-6">
+                                        <div class="col-lg-12 col-md-12">
                                             <div class="form-group"><label for="">Profile</label> <input type="file"
                                                     placeholder="" value="" /></div>
                                         </div>
-                                        <div class="col-lg-8 col-md-6"></div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="form-group"><label for="">Full Name</label> <input type="text"
                                                     placeholder="Name" value="Sanjay Rawal" /></div>
@@ -47,7 +46,7 @@
                                         <div class="col-lg-4 col-md-6 ">
                                             <div class="form-group">
                                                 <label for="">Gender</label>
-                                                <select class="inputbox">
+                                                <select class="inputbox border-0">
                                                     <option value="">Select</option>
                                                     <option value="1">Male</option>
                                                     <option value="12">Female</option>
@@ -71,9 +70,6 @@
                                             <div class="form-group"><label for="">Confirm Password</label> <input
                                                     type="password" placeholder="Number" value="confirm" /></div>
                                         </div>
-                                        <div class="col-lg-12 col-md-12">
-                                            <div class="form-group"><button class="site-button">submit</button></div>
-                                        </div>
                                     </div>
                                 </form>
                             </div>
@@ -85,7 +81,7 @@
                                 </div>
                             </div>
                             <div class="delivery">
-                                <div class="delivery-left d-block w-100 delivery-block">
+                                <div class="delivery-left d-block w-100 delivery-block ship-address">
                                     <form action="">
                                         <div class="row">
                                             <div class="col-lg-6 col-md-6">
@@ -132,14 +128,19 @@
                                                     <label for="test1">Select same billing address</label>
                                                 </div>
                                             </div>
-
-                                            <div class="col-lg-12 col-md-12">
-                                                <div class="form-group"><button class="site-button">submit</button>
-                                                </div>
-                                            </div>
                                         </div>
                                     </form>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="user-block">
+                            <div class="site-header">
+                                <div class="head">
+                                    <h5>My Payment method</h5>
+                                </div>
+                            </div>
+                            <div>
+                            <p><img src="{{asset('frontend/img/pay/khalti.png')}}" alt=""></p>
                             </div>
                         </div>
                     </div>

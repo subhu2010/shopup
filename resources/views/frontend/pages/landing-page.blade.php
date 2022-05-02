@@ -150,7 +150,7 @@
             </h5>
         </div>
         <div class="row best-sale">
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="product-wrap">
                     <div class="product-block">
                         <div class="product__img">
@@ -267,7 +267,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="product-wrap">
                     <div class="product-block">
                         <div class="product__img">
@@ -366,7 +366,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="product-wrap">
                     <div class="product-block">
                         <div class="product__img">
@@ -467,7 +467,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="product-wrap">
                     <div class="product-block">
                         <div class="product__img">
@@ -567,7 +567,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="product-wrap">
                     <div class="product-block">
                         <div class="product__img">
@@ -668,7 +668,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="product-wrap">
                     <div class="product-block">
                         <div class="product__img">

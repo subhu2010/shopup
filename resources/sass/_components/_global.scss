@@ -1485,12 +1485,7 @@ ol {
                 &:nth-child(odd) {
                     background: #fff !important;
                 }
-                &:nth-child(even) {
-                    background: $light-red;
-                    &:hover {
-                        background: $light-red;
-                    }
-                }
+                
                 .sorting_1 {
                     background: transparent !important;
                 }
@@ -1532,7 +1527,7 @@ table {
 .paginate_button {
     border: 0 !important;
     box-shadow: $shadow;
-    background: $light-red;
+    background: rgba(108, 109, 212, 0.6);
     color: #fff !important;
 
     &:hover {

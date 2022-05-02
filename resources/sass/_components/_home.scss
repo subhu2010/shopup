@@ -1686,6 +1686,7 @@ header {
             .right-button {
                 display: flex;
                 align-items: center;
+                width: 100%;
                 ul {
                     margin: 0;
                     padding: 0;
@@ -1784,7 +1785,7 @@ header {
         padding: 0.9375rem;
         background: #fff;
         .site-header {
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
             h5,
             h6 {
                 font-size: 1.0625rem;
@@ -1819,28 +1820,46 @@ header {
                         margin: 0 0 0.25rem;
                         display: block;
                     }
+                    .social {
+                        li {
+                            height: 30px;
+                            width: 30px;
+                            border-radius: 50%;
+                            border: 1px solid $blue;
+                            a {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                height: 100%;
+                                width: 100%;
+                                i {
+                                    color: $blue;
+                                }
+                            }
+                        }
+                    }
                 }
             }
             .user-flex {
                 display: flex;
                 align-items: center;
                 .overview-block {
-                    height: 9.375rem;
                     margin-right: 0.9375rem;
                     width: 32%;
                     padding: 0.9375rem;
                     margin-right: 15px;
                     box-shadow: $shadow;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    flex-direction: column;
-                    background: #ffdcdc;
+
+                    background: $white;
+                    border-radius: 10px;
                     h5 {
                         font-weight: normal;
+                        font-size: 0.875rem;
                     }
                     h3 {
+                        text-align: center;
                         font-size: 1.875rem;
+                        color: $blue;
                     }
                     &:last-child {
                         margin-right: 0;
@@ -1848,9 +1867,6 @@ header {
                 }
             }
             .order {
-                .img {
-                    width: 27%;
-                }
                 .order-content {
                     width: 73%;
                 }
@@ -1935,11 +1951,11 @@ header {
                             }
                             .production-dtl {
                                 span {
-                                    color: #8B8B8B;
-                                    font-size: .875rem;
+                                    color: #8b8b8b;
+                                    font-size: 0.875rem;
                                     display: -webkit-box;
                                     -webkit-line-clamp: 1;
-                                    -webkit-box-orient: vertical;  
+                                    -webkit-box-orient: vertical;
                                     overflow: hidden;
                                 }
                             }
@@ -1959,7 +1975,7 @@ header {
                                         height: 1.875rem;
                                         font-size: 1.0625rem;
                                         background-color: $blue;
-                                        color:$white;
+                                        color: $white;
                                     }
                                     input[type="text"] {
                                         height: 1.875rem;
@@ -1985,15 +2001,21 @@ header {
                             background: #fff;
                         }
                     }
-                    &.delivery-right {
-                        background: #fff6f6;
+                    &.ship-address {
+                        background: rgba(108, 109, 212, 0.8);
+                        padding: 0.9375rem 1.5625rem;
+                    }
+                    &.bill-address {
+                        background: rgba(108, 109, 212, 0.6);
+                        padding: 0.9375rem 1.5625rem;
                     }
                     h5 {
                         margin-bottom: 0.9375rem;
+                        color: $white;
                     }
                     ul {
                         li {
-                            color: $black;
+                            color: $white;
                         }
                     }
                 }
@@ -2074,7 +2096,7 @@ footer {
     .footer {
         .foot-logo {
             background-color: $white;
-            padding: 0 .3125rem;
+            padding: 0 0.3125rem;
             img {
                 height: 4rem;
                 object-fit: contain;

@@ -36,7 +36,6 @@ $mq-breakpoints: (
     .navbar .nav-item .dropdown-menu {
         margin-top: 0;
     }
-   
 }
 /* ============ desktop view .end// ============ */
 
@@ -93,6 +92,24 @@ $mq-breakpoints: (
         }
     }
 
+    .tab-product {
+        .tab-content {
+            ul {
+                li {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .recomended-sec {
+        ul {
+            li {
+                width: 100%;
+            }
+        }
+    }
+
     // lisiting-page
     .list-wrap {
         background: #fff;
@@ -124,7 +141,7 @@ $mq-breakpoints: (
                     li {
                         margin: 0 -3px;
                         padding: 0;
-                        background: $orientalPink;
+                        background: $blue;
                         width: 12.5rem;
                         display: inline-block;
                         text-align: center;
@@ -154,7 +171,7 @@ $mq-breakpoints: (
                                 font-size: 1.0625rem;
                                 padding: 0.5rem 0;
                                 color: #fff;
-                                background: $orientalPink;
+                                background: $blue;
                             }
                         }
                     }
@@ -173,7 +190,7 @@ $mq-breakpoints: (
                         .list__sidebar--block {
                             margin-bottom: 0.9375rem;
                             h5 {
-                                color: $orientalPink;
+                                color: $blue;
                                 text-transform: capitalize;
                                 padding-bottom: 0.5625rem;
                             }
@@ -204,7 +221,7 @@ $mq-breakpoints: (
                                             content: "";
                                             -webkit-appearance: none;
                                             background-color: transparent;
-                                            border: 1px solid $orientalPink;
+                                            border: 1px solid $blue;
                                             padding: 6px;
                                             display: inline-block;
                                             position: relative;
@@ -221,7 +238,7 @@ $mq-breakpoints: (
                                         left: 8px;
                                         width: 6px;
                                         height: 14px;
-                                        border: solid $orientalPink;
+                                        border: solid $blue;
                                         border-width: 0 2px 2px 0;
                                         -webkit-transform: rotate(45deg);
                                         transform: rotate(45deg);
@@ -251,7 +268,7 @@ $mq-breakpoints: (
                                             margin: 0;
                                             padding: 0;
                                             i {
-                                                color: $orientalPink;
+                                                color: $blue;
                                             }
                                             &.shade {
                                                 i {
@@ -301,7 +318,7 @@ $mq-breakpoints: (
                 span {
                     margin-left: 0.9375rem;
                     a {
-                        color: $orientalPink;
+                        color: $blue;
                         &:hover {
                             text-decoration: underline;
                         }
@@ -315,7 +332,7 @@ $mq-breakpoints: (
                     margin-bottom: 0.625rem;
                     text-transform: capitalize;
                     span {
-                        color: $orientalPink;
+                        color: $blue;
                         margin-left: 0.25rem;
                     }
                     i {
@@ -359,7 +376,7 @@ $mq-breakpoints: (
                             display: inline-block;
                             margin: 0;
                             h4 {
-                                color: $orientalPink;
+                                color: $blue;
                             }
                             &:not(:first-child) {
                                 margin-left: 2rem;
@@ -371,7 +388,7 @@ $mq-breakpoints: (
             .detail-info {
                 .price {
                     font-weight: 600;
-                    color: $orientalPink;
+                    color: $blue;
                     margin: 6px 0;
                     font-size: 26px;
                 }
@@ -387,7 +404,7 @@ $mq-breakpoints: (
                             margin-right: 6px;
                             a {
                                 i {
-                                    color: $orientalPink;
+                                    color: $blue;
                                 }
                             }
                         }
@@ -395,16 +412,16 @@ $mq-breakpoints: (
                 }
                 .all-button-- {
                     background: transparent;
-                    border: 2px solid $orientalPink;
-                    color: $orientalPink;
+                    border: 2px solid $blue;
+                    color: $blue;
                     transition: all 0.6s ease-in-out;
                     &:hover {
-                        background: $orientalPink;
+                        background: $blue;
                         color: #fff;
                     }
                 }
                 .all-button {
-                    border: 2px solid $orientalPink;
+                    border: 2px solid $blue;
                 }
             }
         }
@@ -433,7 +450,7 @@ $mq-breakpoints: (
                             font-size: inherit;
                         }
                         &:hover {
-                            background: $orientalPink;
+                            background: $blue;
                             color: #fff;
                             i {
                                 color: #fff;
@@ -441,7 +458,7 @@ $mq-breakpoints: (
                         }
                     }
                     &.active {
-                        background: $orientalPink;
+                        background: $blue;
                         color: #fff;
                         a {
                             i {
@@ -475,7 +492,7 @@ $mq-breakpoints: (
                         border-radius: 50%;
                         overflow: hidden;
                         padding: 0.25rem;
-                        border: 1px solid $orientalPink;
+                        border: 1px solid $blue;
                         img {
                             height: 100%;
                             width: 100%;
@@ -564,7 +581,7 @@ $mq-breakpoints: (
                                     padding: 0.25rem 1.25rem;
                                     border-bottom-left-radius: 0.875rem;
                                     &.sold {
-                                        background: $orientalPink;
+                                        background: $blue;
                                     }
                                     &.cancel {
                                         background: $black;
@@ -629,9 +646,9 @@ $mq-breakpoints: (
                     display: flex;
                     .delivery-block {
                         width: 50%;
-                        padding: 0.9375rem;
+                        // padding: 0.9375rem;
                         &.delivery-left {
-                            background: #ffdcdc;
+                            // background: #ffdcdc;
                             input {
                                 background: #fff;
                             }
@@ -669,7 +686,7 @@ $mq-breakpoints: (
                                     object-fit: contain;
                                 }
                                 &.active {
-                                    border-color: $orientalPink;
+                                    border-color: $blue;
                                 }
                             }
                         }
@@ -705,7 +722,7 @@ $mq-breakpoints: (
                 }
                 &.list-mid {
                     padding: 0.9375rem;
-                    border: 1px solid $orientalPink;
+                    border: 1px solid $blue;
                     border-radius: 0.25rem;
                     h6 {
                         font-size: 1rem;
@@ -1037,7 +1054,7 @@ $mq-breakpoints: (
                                     font-weight: normal;
                                     font-size: 1rem;
                                     &:hover {
-                                        color: $orientalPink;
+                                        color: $blue;
                                     }
                                 }
                                 &:last-child {
@@ -1089,7 +1106,7 @@ $mq-breakpoints: (
                                                     text-decoration: none;
                                                     text-transform: capitalize;
                                                     &:hover {
-                                                        color: $orientalPink;
+                                                        color: $blue;
                                                     }
                                                 }
                                                 &:last-child {
@@ -1178,7 +1195,7 @@ $mq-breakpoints: (
                 width: 0.5625rem;
                 margin-right: 0.5625rem;
                 &.active {
-                    background: $orientalPink;
+                    background: $blue;
                 }
             }
         }
@@ -1248,7 +1265,7 @@ $mq-breakpoints: (
             margin-bottom: 1.25rem;
             width: 100%;
             .product-block {
-                border: 0.125rem solid $orientalPink;
+                border: 0.125rem solid $blue;
                 .product__img {
                     height: 14.375rem;
                     img {
@@ -1318,7 +1335,7 @@ $mq-breakpoints: (
         .product__popular {
             h5 {
                 text-transform: uppercase;
-                color: $orientalPink;
+                color: $blue;
             }
             .site-button {
                 margin: 0.9375rem 0;
@@ -1453,7 +1470,7 @@ $mq-breakpoints: (
         .bargain__wrap {
             padding: 0;
             h3 {
-                color: $orientalPink;
+                color: $blue;
             }
             h5 {
                 font-size: 1rem;
@@ -1575,6 +1592,16 @@ $mq-breakpoints: (
                 }
                 &:last-child {
                     margin-right: 0;
+                }
+            }
+        }
+    }
+
+    .tab-product {
+        .tab-content {
+            ul {
+                li {
+                    width: 100%;
                 }
             }
         }
@@ -1750,7 +1777,7 @@ $mq-breakpoints: (
             }
             .buy-block-right {
                 h3 {
-                    color: $orientalPink;
+                    color: $blue;
                     text-transform: capitalize;
                 }
                 p {
@@ -1786,7 +1813,7 @@ $mq-breakpoints: (
         .join-wrap {
             margin-bottom: 1.25rem;
             padding-bottom: 1.25rem;
-            border-bottom: 1px solid $orientalPink;
+            border-bottom: 1px solid $blue;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -1841,7 +1868,7 @@ $mq-breakpoints: (
                     li {
                         margin: 0 -3px;
                         padding: 0;
-                        background: $orientalPink;
+                        background: $blue;
                         width: 12.5rem;
                         display: inline-block;
                         text-align: center;
@@ -1871,7 +1898,7 @@ $mq-breakpoints: (
                                 font-size: 1.0625rem;
                                 padding: 0.5rem 0;
                                 color: #fff;
-                                background: $orientalPink;
+                                background: $blue;
                             }
                         }
                     }
@@ -1890,7 +1917,7 @@ $mq-breakpoints: (
                         .list__sidebar--block {
                             margin-bottom: 0.9375rem;
                             h5 {
-                                color: $orientalPink;
+                                color: $blue;
                                 text-transform: capitalize;
                                 padding-bottom: 0.5625rem;
                             }
@@ -1921,7 +1948,7 @@ $mq-breakpoints: (
                                             content: "";
                                             -webkit-appearance: none;
                                             background-color: transparent;
-                                            border: 1px solid $orientalPink;
+                                            border: 1px solid $blue;
                                             padding: 6px;
                                             display: inline-block;
                                             position: relative;
@@ -1938,7 +1965,7 @@ $mq-breakpoints: (
                                         left: 8px;
                                         width: 6px;
                                         height: 14px;
-                                        border: solid $orientalPink;
+                                        border: solid $blue;
                                         border-width: 0 2px 2px 0;
                                         -webkit-transform: rotate(45deg);
                                         transform: rotate(45deg);
@@ -1968,7 +1995,7 @@ $mq-breakpoints: (
                                             margin: 0;
                                             padding: 0;
                                             i {
-                                                color: $orientalPink;
+                                                color: $blue;
                                             }
                                             &.shade {
                                                 i {
@@ -2014,13 +2041,13 @@ $mq-breakpoints: (
             z-index: 9;
             width: 100%;
             padding: 1rem;
-            background: $orientalPink;
+            background: $blue;
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 1px solid $orientalPink;
+            border-bottom: 1px solid $blue;
             margin-bottom: 20px;
             h5 {
                 margin-bottom: 0;
@@ -2069,7 +2096,7 @@ $mq-breakpoints: (
                 span {
                     margin-left: 0.9375rem;
                     a {
-                        color: $orientalPink;
+                        color: $blue;
                         &:hover {
                             text-decoration: underline;
                         }
@@ -2083,7 +2110,7 @@ $mq-breakpoints: (
                     margin-bottom: 0.5625rem;
                     text-transform: capitalize;
                     span {
-                        color: $orientalPink;
+                        color: $blue;
                         margin-left: 0.25rem;
                     }
                     i {
@@ -2128,7 +2155,7 @@ $mq-breakpoints: (
                             display: inline-block;
                             margin: 0;
                             h4 {
-                                color: $orientalPink;
+                                color: $blue;
                             }
                             &:not(:first-child) {
                                 margin-left: 2rem;
@@ -2140,7 +2167,7 @@ $mq-breakpoints: (
             .detail-info {
                 .price {
                     font-weight: 600;
-                    color: $orientalPink;
+                    color: $blue;
                     margin: 6px 0;
                     font-size: 26px;
                 }
@@ -2156,7 +2183,7 @@ $mq-breakpoints: (
                             margin-right: 6px;
                             a {
                                 i {
-                                    color: $orientalPink;
+                                    color: $blue;
                                 }
                             }
                         }
@@ -2164,16 +2191,16 @@ $mq-breakpoints: (
                 }
                 .all-button-- {
                     background: transparent;
-                    border: 2px solid $orientalPink;
-                    color: $orientalPink;
+                    border: 2px solid $blue;
+                    color: $blue;
                     transition: all 0.6s ease-in-out;
                     &:hover {
-                        background: $orientalPink;
+                        background: $blue;
                         color: #fff;
                     }
                 }
                 .all-button {
-                    border: 2px solid $orientalPink;
+                    border: 2px solid $blue;
                 }
             }
         }
@@ -2202,7 +2229,7 @@ $mq-breakpoints: (
                             font-size: inherit;
                         }
                         &:hover {
-                            background: $orientalPink;
+                            background: $blue;
                             color: #fff;
                             i {
                                 color: #fff;
@@ -2210,7 +2237,7 @@ $mq-breakpoints: (
                         }
                     }
                     &.active {
-                        background: $orientalPink;
+                        background: $blue;
                         color: #fff;
                         a {
                             i {
@@ -2244,7 +2271,7 @@ $mq-breakpoints: (
                         border-radius: 50%;
                         overflow: hidden;
                         padding: 0.25rem;
-                        border: 1px solid $orientalPink;
+                        border: 1px solid $blue;
                         img {
                             height: 100%;
                             width: 100%;
@@ -2333,7 +2360,7 @@ $mq-breakpoints: (
                                     padding: 0.25rem 1.25rem;
                                     border-bottom-left-radius: 0.875rem;
                                     &.sold {
-                                        background: $orientalPink;
+                                        background: $blue;
                                     }
                                     &.cancel {
                                         background: $black;
@@ -2398,9 +2425,9 @@ $mq-breakpoints: (
                     display: flex;
                     .delivery-block {
                         width: 50%;
-                        padding: 0.9375rem;
+                        // padding: 0.9375rem;
                         &.delivery-left {
-                            background: #ffdcdc;
+                            // background: #ffdcdc;
                             input {
                                 background: #fff;
                             }
@@ -2409,7 +2436,7 @@ $mq-breakpoints: (
                             }
                         }
                         &.delivery-right {
-                            background: #fff6f6;
+                            // background: #fff6f6;
                         }
                         h5 {
                             margin-bottom: 0.9375rem;
@@ -2438,7 +2465,7 @@ $mq-breakpoints: (
                                     object-fit: contain;
                                 }
                                 &.active {
-                                    border-color: $orientalPink;
+                                    border-color: $blue;
                                 }
                             }
                         }
@@ -2474,7 +2501,7 @@ $mq-breakpoints: (
                 }
                 &.list-mid {
                     padding: 0.9375rem;
-                    border: 1px solid $orientalPink;
+                    border: 1px solid $blue;
                     border-radius: 0.25rem;
                     h6 {
                         font-size: 1rem;
@@ -2763,7 +2790,7 @@ $mq-breakpoints: (
                                     font-weight: normal;
                                     font-size: 1rem;
                                     &:hover {
-                                        color: $orientalPink;
+                                        color: $blue;
                                     }
                                 }
                                 &:last-child {
@@ -2815,7 +2842,7 @@ $mq-breakpoints: (
                                                     text-decoration: none;
                                                     text-transform: capitalize;
                                                     &:hover {
-                                                        color: $orientalPink;
+                                                        color: $blue;
                                                     }
                                                 }
                                                 &:last-child {
@@ -2904,7 +2931,7 @@ $mq-breakpoints: (
                 width: 0.5625rem;
                 margin-right: 0.5625rem;
                 &.active {
-                    background: $orientalPink;
+                    background: $blue;
                 }
             }
         }
@@ -2972,9 +2999,9 @@ $mq-breakpoints: (
     .products {
         .product-wrap {
             margin-bottom: 1.25rem;
-            width: 100%;
+            width: 33.33%;
             .product-block {
-                border: 0.125rem solid $orientalPink;
+                border: 0.125rem solid $blue;
                 .product__img {
                     height: 14.375rem;
                     img {
@@ -3039,7 +3066,7 @@ $mq-breakpoints: (
         .product__popular {
             h5 {
                 text-transform: uppercase;
-                color: $orientalPink;
+                color: $blue;
             }
             .site-button {
                 margin: 0.9375rem 0;
@@ -3176,7 +3203,7 @@ $mq-breakpoints: (
         .bargain__wrap {
             padding: 0;
             h3 {
-                color: $orientalPink;
+                color: $blue;
             }
             h5 {
                 font-size: 1rem;
@@ -3298,6 +3325,24 @@ $mq-breakpoints: (
                 }
                 &:last-child {
                     margin-right: 0;
+                }
+            }
+        }
+    }
+
+    .recomended-sec {
+        ul {
+            li {
+                width: 33.33%;
+            }
+        }
+    }
+    .tab-product {
+        .tab-content {
+            ul {
+                li {
+                    width: 33.33%;
+                    margin-bottom:1.25rem;
                 }
             }
         }
@@ -3473,7 +3518,7 @@ $mq-breakpoints: (
             }
             .buy-block-right {
                 h3 {
-                    color: $orientalPink;
+                    color: $blue;
                     text-transform: capitalize;
                 }
                 p {
@@ -3509,7 +3554,7 @@ $mq-breakpoints: (
         .join-wrap {
             margin-bottom: 1.25rem;
             padding-bottom: 1.25rem;
-            border-bottom: 1px solid $orientalPink;
+            border-bottom: 1px solid $blue;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -3564,7 +3609,7 @@ $mq-breakpoints: (
                     li {
                         margin: 0 -3px;
                         padding: 0;
-                        background: $orientalPink;
+                        background: $blue;
                         width: 12.5rem;
                         display: inline-block;
                         text-align: center;
@@ -3594,7 +3639,7 @@ $mq-breakpoints: (
                                 font-size: 1.0625rem;
                                 padding: 0.5rem 0;
                                 color: #fff;
-                                background: $orientalPink;
+                                background: $blue;
                             }
                         }
                     }
@@ -3613,7 +3658,7 @@ $mq-breakpoints: (
                         .list__sidebar--block {
                             margin-bottom: 0.9375rem;
                             h5 {
-                                color: $orientalPink;
+                                color: $blue;
                                 text-transform: capitalize;
                                 padding-bottom: 0.5625rem;
                             }
@@ -3644,7 +3689,7 @@ $mq-breakpoints: (
                                             content: "";
                                             -webkit-appearance: none;
                                             background-color: transparent;
-                                            border: 1px solid $orientalPink;
+                                            border: 1px solid $blue;
                                             padding: 6px;
                                             display: inline-block;
                                             position: relative;
@@ -3661,7 +3706,7 @@ $mq-breakpoints: (
                                         left: 8px;
                                         width: 6px;
                                         height: 14px;
-                                        border: solid $orientalPink;
+                                        border: solid $blue;
                                         border-width: 0 2px 2px 0;
                                         -webkit-transform: rotate(45deg);
                                         transform: rotate(45deg);
@@ -3691,7 +3736,7 @@ $mq-breakpoints: (
                                             margin: 0;
                                             padding: 0;
                                             i {
-                                                color: $orientalPink;
+                                                color: $blue;
                                             }
                                             &.shade {
                                                 i {
@@ -3741,7 +3786,7 @@ $mq-breakpoints: (
                 span {
                     margin-left: 0.9375rem;
                     a {
-                        color: $orientalPink;
+                        color: $blue;
                         &:hover {
                             text-decoration: underline;
                         }
@@ -3755,7 +3800,7 @@ $mq-breakpoints: (
                     margin-bottom: 0.625rem;
                     text-transform: capitalize;
                     span {
-                        color: $orientalPink;
+                        color: $blue;
                         margin-left: 0.25rem;
                     }
                     i {
@@ -3800,7 +3845,7 @@ $mq-breakpoints: (
                             display: inline-block;
                             margin: 0;
                             h4 {
-                                color: $orientalPink;
+                                color: $blue;
                             }
                             &:not(:first-child) {
                                 margin-left: 2rem;
@@ -3812,7 +3857,7 @@ $mq-breakpoints: (
             .detail-info {
                 .price {
                     font-weight: 600;
-                    color: $orientalPink;
+                    color: $blue;
                     margin: 6px 0;
                     font-size: 26px;
                 }
@@ -3828,7 +3873,7 @@ $mq-breakpoints: (
                             margin-right: 6px;
                             a {
                                 i {
-                                    color: $orientalPink;
+                                    color: $blue;
                                 }
                             }
                         }
@@ -3836,16 +3881,16 @@ $mq-breakpoints: (
                 }
                 .all-button-- {
                     background: transparent;
-                    border: 2px solid $orientalPink;
-                    color: $orientalPink;
+                    border: 2px solid $blue;
+                    color: $blue;
                     transition: all 0.6s ease-in-out;
                     &:hover {
-                        background: $orientalPink;
+                        background: $blue;
                         color: #fff;
                     }
                 }
                 .all-button {
-                    border: 2px solid $orientalPink;
+                    border: 2px solid $blue;
                 }
             }
         }
@@ -3879,13 +3924,13 @@ $mq-breakpoints: (
             z-index: 9;
             width: 100%;
             padding: 1rem;
-            background: $orientalPink;
+            background: $blue;
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 1px solid $orientalPink;
+            border-bottom: 1px solid $blue;
             margin-bottom: 20px;
             h5 {
                 margin-bottom: 0;
@@ -3925,7 +3970,7 @@ $mq-breakpoints: (
                             font-size: inherit;
                         }
                         &:hover {
-                            background: $orientalPink;
+                            background: $blue;
                             color: #fff;
                             i {
                                 color: #fff;
@@ -3933,7 +3978,7 @@ $mq-breakpoints: (
                         }
                     }
                     &.active {
-                        background: $orientalPink;
+                        background: $blue;
                         color: #fff;
                         a {
                             i {
@@ -3967,7 +4012,7 @@ $mq-breakpoints: (
                         border-radius: 50%;
                         overflow: hidden;
                         padding: 0.25rem;
-                        border: 1px solid $orientalPink;
+                        border: 1px solid $blue;
                         img {
                             height: 100%;
                             width: 100%;
@@ -3989,17 +4034,12 @@ $mq-breakpoints: (
                     display: flex;
                     align-items: center;
                     .overview-block {
-                        height: 9.375rem;
                         margin-right: 0.9375rem;
-                        width: 32%;
+                        width: 50%;
                         padding: 0.9375rem;
                         margin-right: 15px;
                         box-shadow: $shadow;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        flex-direction: column;
-                        background: #ffdcdc;
+                        
                         h5 {
                             font-weight: normal;
                         }
@@ -4056,7 +4096,7 @@ $mq-breakpoints: (
                                     padding: 0.25rem 1.25rem;
                                     border-bottom-left-radius: 0.875rem;
                                     &.sold {
-                                        background: $orientalPink;
+                                        background: $blue;
                                     }
                                     &.cancel {
                                         background: $black;
@@ -4121,9 +4161,9 @@ $mq-breakpoints: (
                     display: flex;
                     .delivery-block {
                         width: 50%;
-                        padding: 0.9375rem;
+                        // padding: 0.9375rem;
                         &.delivery-left {
-                            background: #ffdcdc;
+                            // background: #ffdcdc;
                             input {
                                 background: #fff;
                             }
@@ -4132,14 +4172,14 @@ $mq-breakpoints: (
                             }
                         }
                         &.delivery-right {
-                            background: #fff6f6;
+                            // background: #fff6f6;
                         }
                         h5 {
                             margin-bottom: 0.9375rem;
                         }
                         ul {
                             li {
-                                color: $black;
+                                color: $white;
                             }
                         }
                     }
@@ -4161,7 +4201,7 @@ $mq-breakpoints: (
                                     object-fit: contain;
                                 }
                                 &.active {
-                                    border-color: $orientalPink;
+                                    border-color: $blue;
                                 }
                             }
                         }
@@ -4197,7 +4237,7 @@ $mq-breakpoints: (
                 }
                 &.list-mid {
                     padding: 0.9375rem;
-                    border: 1px solid $orientalPink;
+                    border: 1px solid $blue;
                     border-radius: 0.25rem;
                     h6 {
                         font-size: 1rem;
@@ -4331,6 +4371,8 @@ $mq-breakpoints: (
             }
         }
     }
+
+
 }
 @media (min-width: 768px) and (max-width: 991px) {
     #btn-close {
@@ -4375,7 +4417,7 @@ $mq-breakpoints: (
                 width: 0.5625rem;
                 margin-right: 0.5625rem;
                 &.active {
-                    background: $orientalPink;
+                    background: $blue;
                 }
             }
         }
@@ -4385,7 +4427,7 @@ $mq-breakpoints: (
     .products {
         .product-wrap {
             .product-block {
-                border: 0.125rem solid $orientalPink;
+                border: 0.125rem solid $blue;
                 .product__img {
                     height: 14.375rem;
                     img {
@@ -4423,7 +4465,7 @@ $mq-breakpoints: (
         .bargain__wrap {
             padding: 0 5rem;
             h3 {
-                color: $orientalPink;
+                color: $blue;
                 font-weight: 600;
             }
             h5 {
@@ -4566,13 +4608,13 @@ $mq-breakpoints: (
             z-index: 9;
             width: 100%;
             padding: 1rem;
-            background: $orientalPink;
+            background: $blue;
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 1px solid $orientalPink;
+            border-bottom: 1px solid $blue;
             margin-bottom: 20px;
             h5 {
                 margin-bottom: 0;
@@ -4723,4 +4765,10 @@ $mq-breakpoints: (
     .header__right {
         width: 100%;
     }
+}
+
+@media (max-width:991px) {}
+@media (max-width:823px) {}
+@media (max-width:767px) {
+
 }
