@@ -44,7 +44,7 @@
                 <div class="header__right">
                     <div class="header__logo">
                         <a href="index.php">
-                            <img src="{{asset('frontend/img/logo/logo-rm.png')}}" alt="">
+                            <img src="{{asset('frontend/img/logo/logo.png')}}" alt="">
                         </a>
                     </div>
                     <div class="searchBar">

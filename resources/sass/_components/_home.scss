@@ -7,7 +7,7 @@ header {
     // border-bottom: 0.0187rem solid rgba(0, 0, 0, 0.09);
     .header__top {
         // border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.09);
-        background: $orientalPink;
+        background: $blue;
         .top__content {
             display: flex;
             align-items: center;
@@ -43,7 +43,7 @@ header {
                         &.show {
                             svg {
                                 path {
-                                    fill: $orientalPink;
+                                    fill: $blue;
                                 }
                             }
                         }
@@ -65,7 +65,7 @@ header {
                                 &.show {
                                     svg {
                                         path {
-                                            fill: $orientalPink;
+                                            fill: $blue;
                                         }
                                     }
                                 }
@@ -255,7 +255,7 @@ header {
                                 font-weight: normal;
                                 font-size: 1rem;
                                 &:hover {
-                                    color: $orientalPink;
+                                    color: $blue;
                                 }
                             }
                             &:last-child {
@@ -307,7 +307,7 @@ header {
                                                 text-decoration: none;
                                                 text-transform: capitalize;
                                                 &:hover {
-                                                    color: $orientalPink;
+                                                    color: $blue;
                                                 }
                                             }
                                             &:last-child {
@@ -349,7 +349,7 @@ header {
                             background: #fafafa;
                             &:target,
                             &:focus {
-                                border: 0.0625rem solid $orientalPink;
+                                border: 0.0625rem solid $blue;
                             }
                         }
                         #searchQuerySubmit {
@@ -359,7 +359,7 @@ header {
                             outline: none;
                             position: absolute;
                             right: -100px;
-                            background: $orientalPink;
+                            background: $blue;
                             color: $white;
                             padding: 0 1.875rem;
                             &:hover {
@@ -373,7 +373,7 @@ header {
                             outline: none;
                             position: absolute;
                             left: 0;
-                            background: $orientalPink;
+                            background: $blue;
                             padding: 0 0.75rem;
                             svg {
                                 path {
@@ -403,7 +403,7 @@ header {
                                 transform: translateY(-50%);
                                 left: 0.375rem;
                                 font-size: 1.375rem;
-                                color: $orientalPink;
+                                color: $blue;
                             }
                         }
                     }
@@ -469,8 +469,8 @@ header {
                 color: $black;
                 &.active {
                     background: transparent !important;
-                    color: $orientalPink !important;
-                    border-color: $orientalPink;
+                    color: $blue !important;
+                    border-color: $blue;
                 }
             }
         }
@@ -494,16 +494,16 @@ header {
             .form-btn {
                 padding: 0.3125rem 0.9375rem;
                 text-transform: uppercase;
-                color: $orientalPink;
-                border: 1px solid $orientalPink;
+                color: $blue;
+                border: 1px solid $blue;
                 background-color: $white;
                 transition: all 0.5s ease;
                 i {
-                    color: $orientalPink;
+                    color: $blue;
                     margin-left: 0.625rem;
                 }
                 &:hover {
-                    background-color: $orientalPink;
+                    background-color: $blue;
                     color: $white;
                     i {
                         color: $white;
@@ -512,7 +512,7 @@ header {
             }
             a {
                 &:hover {
-                    color: $orientalPink;
+                    color: $blue;
                 }
             }
         }
@@ -674,7 +674,7 @@ header {
         h2 {
             text-transform: uppercase;
             font-weight: 700;
-            color: $orientalPink;
+            color: $blue;
         }
         h5 {
             margin: 0.625rem 0;
@@ -683,8 +683,8 @@ header {
             color: $black;
             border-color: $black;
             &:hover {
-                color: $orientalPink;
-                border-color: $orientalPink;
+                color: $blue;
+                border-color: $blue;
                 background-color: transparent;
             }
         }
@@ -721,7 +721,7 @@ header {
     }
     .luxury__right {
         padding: 3.75rem 1.875rem;
-        background-color: $orientalPink;
+        background-color: $blue;
         text-align: center;
         h2,
         h3 {
@@ -762,7 +762,7 @@ header {
         }
         .site-button {
             background-color: #fff;
-            color: $orientalPink;
+            color: $blue;
             display: inline-block;
         }
     }
@@ -773,7 +773,7 @@ header {
     position: relative;
     padding-top: 0.9375rem;
     padding-bottom: 0.9375rem;
-    background: $orientalPink;
+    background: $blue;
 
     .timer__block {
         display: flex;
@@ -801,7 +801,7 @@ header {
                 border-radius: 0.3125rem;
                 span {
                     margin: 0 0.1875rem;
-                    color: $yellow;
+                    color: $white;
                 }
                 &:nth-child(2n) {
                     margin: 0;
@@ -827,14 +827,14 @@ header {
     .product__popular {
         h5 {
             text-transform: uppercase;
-            color: $orientalPink;
+            color: $blue;
         }
         .site-button {
             display: inline-block;
             margin: 1.25rem 0;
             border-radius: 0.625rem;
             i {
-                color: $orientalPink;
+                color: $blue;
                 margin: 0;
                 margin-left: 0.375rem;
             }
@@ -850,7 +850,7 @@ header {
             border-radius: 0.625rem;
             h6 {
                 margin-bottom: 0.9375rem;
-                color: $orientalPink;
+                color: $blue;
             }
             ul {
                 display: block;
@@ -895,7 +895,7 @@ header {
                 height: 1.5625rem;
                 transform: translateY(-38%);
                 width: 1.5625rem;
-                background: $orientalPink;
+                background: $blue;
                 display: flex;
                 border-radius: 50%;
                 align-items: center;
@@ -1011,7 +1011,7 @@ header {
             padding: 0.9375rem;
             background: #fff;
             h6 {
-                color: $orientalPink;
+                color: $blue;
                 text-transform: capitalize;
             }
         }
@@ -1034,7 +1034,7 @@ header {
                 border-color: #fff;
                 color: #fff;
                 &:hover {
-                    border-color: $orientalPink;
+                    border-color: $blue;
                 }
             }
         }
@@ -1170,7 +1170,7 @@ header {
         }
         .buy-block-right {
             h3 {
-                color: $orientalPink;
+                color: $blue;
                 text-transform: capitalize;
             }
             p {
@@ -1204,11 +1204,11 @@ header {
 // join
 .join {
     background: #fff;
-    border-top: 1px solid $orientalPink;
+    border-top: 1px solid $blue;
     .join-wrap {
         margin-bottom: 1.25rem;
         padding-bottom: 1.25rem;
-        border-bottom: 1px solid $orientalPink;
+        border-bottom: 1px solid $blue;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1242,7 +1242,7 @@ header {
                 width: auto;
             }
             .site-button {
-                background: $orientalPink;
+                background: $blue;
                 color: #fff;
                 width: auto;
                 border-radius: 0px 0.25rem 0.25rem 0;
@@ -1314,7 +1314,7 @@ header {
         .list-block {
             text-align: center;
             &.active {
-                border-bottom: 0.3125rem solid $orientalPink;
+                border-bottom: 0.3125rem solid $blue;
             }
             img {
                 height: 5.625rem;
@@ -1382,7 +1382,7 @@ header {
 
                     &::-webkit-scrollbar-thumb {
                         border-radius: 0.3125rem;
-                        background-color: $orientalPink;
+                        background-color: $blue;
                     }
                     h5 {
                         position: sticky;
@@ -1425,7 +1425,7 @@ header {
                                 content: "";
                                 -webkit-appearance: none;
                                 background-color: transparent;
-                                border: 1px solid $orientalPink;
+                                border: 1px solid $blue;
                                 padding: 6px;
                                 display: inline-block;
                                 position: relative;
@@ -1442,7 +1442,7 @@ header {
                             left: 8px;
                             width: 6px;
                             height: 14px;
-                            border: solid $orientalPink;
+                            border: solid $blue;
                             border-width: 0 2px 2px 0;
                             -webkit-transform: rotate(45deg);
                             transform: rotate(45deg);
@@ -1472,7 +1472,7 @@ header {
                                 margin: 0;
                                 padding: 0;
                                 i {
-                                    color: $orientalPink;
+                                    color: $blue;
                                 }
                                 &.shade {
                                     i {
@@ -1530,7 +1530,7 @@ header {
             span {
                 margin-left: 0.9375rem;
                 a {
-                    color: $orientalPink;
+                    color: $blue;
                     &:hover {
                         text-decoration: underline;
                     }
@@ -1545,7 +1545,7 @@ header {
                 text-transform: capitalize;
                 font-size: 1.25rem;
                 span {
-                    // color: $orientalPink;
+                    // color: $blue;
                     margin-left: 0.25rem;
                     font-weight: 600;
                 }
@@ -1646,7 +1646,7 @@ header {
                 .custom-button {
                     display: flex;
                     .cart-btn {
-                        background: $orientalPink;
+                        background: $blue;
                         color: $white;
                         display: flex;
                         justify-content: center;
@@ -1667,7 +1667,7 @@ header {
                         display: inline-block;
                         margin: 0;
                         h4 {
-                            color: $orientalPink;
+                            color: $blue;
                         }
                         &:not(:first-child) {
                             margin-left: 2rem;
@@ -1695,7 +1695,7 @@ header {
                         margin-right: 6px;
                         a {
                             i {
-                                color: $orientalPink;
+                                color: $blue;
                             }
                         }
                     }
@@ -1703,16 +1703,16 @@ header {
             }
             .all-button-- {
                 background: transparent;
-                border: 2px solid $orientalPink;
-                color: $orientalPink;
+                border: 2px solid $blue;
+                color: $blue;
                 transition: all 0.6s ease-in-out;
                 &:hover {
-                    background: $orientalPink;
+                    background: $blue;
                     color: #fff;
                 }
             }
             .all-button {
-                border: 2px solid $orientalPink;
+                border: 2px solid $blue;
             }
         }
     }
@@ -1730,7 +1730,7 @@ header {
         font-size: 1.375rem;
         color: #7c7c7c;
         &.active {
-            border-bottom: 0.125rem solid $orientalPink;
+            border-bottom: 0.125rem solid $blue;
             color: $black;
             background: transparent;
             border-radius: 0;
@@ -1761,7 +1761,7 @@ header {
                         font-size: inherit;
                     }
                     &:hover {
-                        background: $orientalPink;
+                        background: $blue;
                         color: #fff;
                         i {
                             color: #fff;
@@ -1769,7 +1769,7 @@ header {
                     }
                 }
                 &.active {
-                    background: $orientalPink;
+                    background: $blue;
                     color: #fff;
                     a {
                         i {
@@ -1803,7 +1803,7 @@ header {
                     border-radius: 50%;
                     overflow: hidden;
                     padding: 0.25rem;
-                    border: 1px solid $orientalPink;
+                    border: 1px solid $blue;
                     img {
                         height: 100%;
                         width: 100%;
@@ -1874,7 +1874,7 @@ header {
                             align-items: flex-end;
                             i {
                                 font-size: 1.5rem;
-                                margin-right: 0.9375rem;
+                                margin-left: 0.9375rem;
                             }
                             svg {
                                 height: 1.125rem;
@@ -1892,7 +1892,7 @@ header {
                                 padding: 0.25rem 1.25rem;
                                 border-bottom-left-radius: 0.875rem;
                                 &.sold {
-                                    background: $orientalPink;
+                                    background: $blue;
                                 }
                                 &.cancel {
                                     background: $black;
@@ -1914,8 +1914,8 @@ header {
                         .img {
                             position: relative;
                             img {
-                                height: 9.375rem;
-                                width: 9.375rem;
+                                height: 6rem;
+                                width: 6rem;
                                 object-fit: cover;
                             }
                             .checkbox {
@@ -1933,6 +1933,16 @@ header {
                                     }
                                 }
                             }
+                            .production-dtl {
+                                span {
+                                    color: #8B8B8B;
+                                    font-size: .875rem;
+                                    display: -webkit-box;
+                                    -webkit-line-clamp: 1;
+                                    -webkit-box-orient: vertical;  
+                                    overflow: hidden;
+                                }
+                            }
                         }
                         .quantity-button {
                             margin: 0.3125rem 0;
@@ -1942,15 +1952,19 @@ header {
                                 text-transform: capitalize;
                             }
                             .custom-button {
-                                input[type="button"] {
-                                    width: 2.1875rem;
-                                    height: 1.875rem;
-                                    font-size: 1.0625rem;
-                                    background-color: $orientalPink;
-                                }
-                                input[type="text"] {
-                                    height: 1.875rem;
-                                    width: 2.1875rem;
+                                .product-counter {
+                                    border: none;
+                                    input[type="button"] {
+                                        width: 2.1875rem;
+                                        height: 1.875rem;
+                                        font-size: 1.0625rem;
+                                        background-color: $blue;
+                                        color:$white;
+                                    }
+                                    input[type="text"] {
+                                        height: 1.875rem;
+                                        width: 2.1875rem;
+                                    }
                                 }
                             }
                         }
@@ -1961,7 +1975,6 @@ header {
                 display: flex;
                 .delivery-block {
                     width: 50%;
-                    padding: 0.9375rem;
                     &.delivery-left {
                         input {
                             background: #fff;
@@ -1995,14 +2008,13 @@ header {
                             display: inline-block;
                             padding-left: 0.9375rem;
                             padding-right: 0.9375rem;
-                            border: 1px solid #ccc;
                             img {
-                                height: 3.125rem;
+                                height: 4rem;
                                 width: auto;
                                 object-fit: contain;
                             }
                             &.active {
-                                border-color: $orientalPink;
+                                border-color: $blue;
                             }
                         }
                     }
@@ -2038,7 +2050,7 @@ header {
             }
             &.list-mid {
                 padding: 0.9375rem;
-                border: 1px solid $orientalPink;
+                border: 1px solid $blue;
                 border-radius: 0.25rem;
                 h6 {
                     font-size: 1rem;
@@ -2057,13 +2069,14 @@ header {
 
 // footer
 footer {
-    background: $orientalPink;
+    background: $blue;
     padding: 4rem 0 1.25rem;
     .footer {
-        height: 100%;
         .foot-logo {
+            background-color: $white;
+            padding: 0 .3125rem;
             img {
-                height: 5.625rem;
+                height: 4rem;
                 object-fit: contain;
             }
         }
@@ -2228,7 +2241,7 @@ footer {
     z-index: 999;
     box-shadow: $shadow;
     > .nav-pills {
-        border-bottom: 1px solid $orientalPink;
+        border-bottom: 1px solid $blue;
         .nav-item {
             display: inline-block;
             display: inline-flex;
@@ -2290,7 +2303,7 @@ footer {
                         transition: all 0.3s ease-in-out;
                     }
                     &:hover {
-                        color: $orientalPink;
+                        color: $blue;
                     }
                 }
                 ul {
@@ -2309,7 +2322,7 @@ footer {
                 }
                 &.active {
                     button {
-                        color: $orientalPink;
+                        color: $blue;
                     }
                     .child {
                         display: block;

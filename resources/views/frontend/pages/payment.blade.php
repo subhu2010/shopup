@@ -21,28 +21,114 @@
                             <div class="delivery pay">
                                 <ul>
                                     <li>
-
-                                        <img src="img/pay/e-sewa.png" alt="">
+                                        <img src="{{asset('frontend/img/pay/khalti.png')}}" alt="">
                                     </li>
                                     <li>
-
-                                        <img src="img/pay/khalti.png" alt="">
+                                        <img src="{{asset('frontend/img/pay/e-sewa.png')}}" alt="">
                                     </li>
                                     <li>
-
-                                        <img src="img/pay/master.png" alt="">
-                                    </li>
-                                    <li>
-
-                                        <img src="img/pay/visa.png" alt="">
+                                        <img src="{{asset('frontend/img/pay/linepay.svg')}}" alt="">
                                     </li>
                                 </ul>
-                                <div class="mt-4">
+                                <div class="mt-4 text-center">
                                     <a href="{{url('confirm')}}" class="site-button btn">Choose payment method</a>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="user-content p-0">
+                        <div class="user-block">
+                            <div class="site-header">
+                                <div class="head">
+                                    <h6>Package 2/2</h6>
+                                </div>
+                                <div class="right">
+                                    <h6>Shipped by Shophab delivery</h6>
+                                </div>
+                            </div>
+                            <div class="order history cart">
+                                <ul>
+                                    <li class="cart-list">
+                                        <div class="order-block">
+                                            <div class="img ">
+                                                <div class="checkbox">
+                                                    <input type="checkbox" id="select" name="checkbox-group" checked>
+                                                    <label for="select">
+                                                        <img src="{{asset('frontend/img/product/p-1.jpg')}}" alt="">
+                                                    </label>
+                                                </div>
+                                                <div class="production-dtl">
+                                                    <span class="" title="No Brand">No Brand</span>
+                                                    <span class="d-block">No Size</span>
+                                                </div>
+                                            </div>
+                                            <div class="order-content">
+                                                <a href="{{url('detail')}}">
+                                                    <h6>Ezeekart silicone wall mounted toilet brush</h6>
+                                                </a>
+                                                <div class="quantity-button ">
+                                                    <span>Quantity</span>
+                                                    <div class="custom-button">
+                                                        <div class="product-counter">
+                                                            <input id="minus" class="minus" type="button" value="-" />
+                                                            <input id="quantity" class="quantity" type="text" value="1"
+                                                                name="quantity" />
+                                                            <input id="plus" class="plus" type="button" value="+" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <ul>
+                                                    <li class="past">Rs 500</li>
+                                                    <li class="present">50% off</li>
+                                                </ul>
+                                                <h5>Rs. 399</h5>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="cart-list">
+                                        <div class="order-block">
+                                            <div class="img ">
+                                                <div class="checkbox">
+                                                    <input type="checkbox" id="select" name="checkbox-group" checked>
+                                                    <label for="select">
+                                                        <img src="{{asset('frontend/img/product/p-1.jpg')}}" alt="">
+                                                    </label>
+                                                </div>
+                                                <div class="production-dtl">
+                                                    <span class="" title="No Brand">No Brand</span>
+                                                    <span class="d-block">No Size</span>
+                                                </div>
+                                            </div>
+                                            <div class="order-content">
+                                                <a href="{{url('detail')}}">
+                                                    <h6>Ezeekart silicone wall mounted toilet brush</h6>
+                                                </a>
+                                                <div class="quantity-button ">
+                                                    <span>Quantity</span>
+                                                    <div class="custom-button">
+                                                        <div class="product-counter">
+                                                            <input id="minus" class="minus" type="button" value="-" />
+                                                            <input id="quantity" class="quantity" type="text" value="1"
+                                                                name="quantity" />
+                                                            <input id="plus" class="plus" type="button" value="+" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <ul>
+                                                    <li class="past">Rs 500</li>
+                                                    <li class="present">50% off</li>
+                                                </ul>
+                                                <h5>Rs. 399</h5>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                   
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <div class="user-content">
@@ -71,6 +157,22 @@
                                 <h6>Buying for loved ones?</h6>
                                 <p>Gift wrap and personalized message only at Rs 50</p>
                                 <button class="site-button btn">Gift a card</button>
+                            </div>
+                        </div>
+                        <div class="user-block">
+                            <div class="custom-block list-mid">
+                                <div class="d-flex justify-content-between">
+                                    <p>Name</p>
+                                    <p>Sagar Ghimire</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p>Phone</p>
+                                    <p>9808495505</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p>Address</p>
+                                    <p>Harisiddhi-8, Lalitpur</p>
+                                </div>
                             </div>
                         </div>
                         <div class="user-block">

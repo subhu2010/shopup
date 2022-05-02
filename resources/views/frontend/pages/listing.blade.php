@@ -108,8 +108,8 @@
                                     <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
-                                            <h4 class="present">Rs. 400</h4>
                                             <h6 class="past">Rs 500</h6>
+                                            <h4 class="present">Rs. 400</h4>
                                         </div>
                                     </a>
                                     <a href="cart.php">
@@ -223,8 +223,8 @@
                                     <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
-                                            <h4 class="present">Rs. 400</h4>
                                             <h6 class="past">Rs 500</h6>
+                                            <h4 class="present">Rs. 400</h4>
                                         </div>
                                     </a>
                                     <a href="cart.php">
@@ -321,8 +321,8 @@
                                     <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
-                                            <h4 class="present">Rs. 400</h4>
                                             <h6 class="past">Rs 500</h6>
+                                            <h4 class="present">Rs. 400</h4>
                                         </div>
                                     </a>
                                     <a href="cart.php">
@@ -420,8 +420,8 @@
                                     <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
-                                            <h4 class="present">Rs. 400</h4>
                                             <h6 class="past">Rs 500</h6>
+                                            <h4 class="present">Rs. 400</h4>
                                         </div>
                                     </a>
                                     <a href="cart.php">
@@ -519,8 +519,8 @@
                                     <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
-                                            <h4 class="present">Rs. 400</h4>
                                             <h6 class="past">Rs 500</h6>
+                                            <h4 class="present">Rs. 400</h4>
                                         </div>
                                     </a>
                                     <a href="cart.php">
@@ -618,8 +618,8 @@
                                     <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
-                                            <h4 class="present">Rs. 400</h4>
                                             <h6 class="past">Rs 500</h6>
+                                            <h4 class="present">Rs. 400</h4>
                                         </div>
                                     </a>
                                     <a href="cart.php">
@@ -717,8 +717,8 @@
                                     <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
-                                            <h4 class="present">Rs. 400</h4>
                                             <h6 class="past">Rs 500</h6>
+                                            <h4 class="present">Rs. 400</h4>
                                         </div>
                                     </a>
                                     <a href="cart.php">
@@ -816,8 +816,8 @@
                                     <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
-                                            <h4 class="present">Rs. 400</h4>
                                             <h6 class="past">Rs 500</h6>
+                                            <h4 class="present">Rs. 400</h4>
                                         </div>
                                     </a>
                                     <a href="cart.php">
@@ -915,8 +915,8 @@
                                     <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
-                                            <h4 class="present">Rs. 400</h4>
                                             <h6 class="past">Rs 500</h6>
+                                            <h4 class="present">Rs. 400</h4>
                                         </div>
                                     </a>
                                     <a href="cart.php">
@@ -1014,8 +1014,8 @@
                                     <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
-                                            <h4 class="present">Rs. 400</h4>
                                             <h6 class="past">Rs 500</h6>
+                                            <h4 class="present">Rs. 400</h4>
                                         </div>
                                     </a>
                                     <a href="cart.php">
@@ -1117,8 +1117,8 @@
                                     <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
-                                            <h4 class="present">Rs. 400</h4>
                                             <h6 class="past">Rs 500</h6>
+                                            <h4 class="present">Rs. 400</h4>
                                         </div>
                                     </a>
                                     <a href="cart.php">
@@ -1232,8 +1232,8 @@
                                     <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
-                                            <h4 class="present">Rs. 400</h4>
                                             <h6 class="past">Rs 500</h6>
+                                            <h4 class="present">Rs. 400</h4>
                                         </div>
                                     </a>
                                     <a href="cart.php">
@@ -1330,8 +1330,8 @@
                                     <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
-                                            <h4 class="present">Rs. 400</h4>
                                             <h6 class="past">Rs 500</h6>
+                                            <h4 class="present">Rs. 400</h4>
                                         </div>
                                     </a>
                                     <a href="cart.php">
@@ -1429,8 +1429,8 @@
                                     <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
-                                            <h4 class="present">Rs. 400</h4>
                                             <h6 class="past">Rs 500</h6>
+                                            <h4 class="present">Rs. 400</h4>
                                         </div>
                                     </a>
                                     <a href="cart.php">
@@ -1528,8 +1528,8 @@
                                     <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
-                                            <h4 class="present">Rs. 400</h4>
                                             <h6 class="past">Rs 500</h6>
+                                            <h4 class="present">Rs. 400</h4>
                                         </div>
                                     </a>
                                     <a href="cart.php">
@@ -1627,8 +1627,8 @@
                                     <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
-                                            <h4 class="present">Rs. 400</h4>
                                             <h6 class="past">Rs 500</h6>
+                                            <h4 class="present">Rs. 400</h4>
                                         </div>
                                     </a>
                                     <a href="cart.php">
@@ -1726,8 +1726,8 @@
                                     <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
-                                            <h4 class="present">Rs. 400</h4>
                                             <h6 class="past">Rs 500</h6>
+                                            <h4 class="present">Rs. 400</h4>
                                         </div>
                                     </a>
                                     <a href="cart.php">
@@ -1825,8 +1825,8 @@
                                     <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
-                                            <h4 class="present">Rs. 400</h4>
                                             <h6 class="past">Rs 500</h6>
+                                            <h4 class="present">Rs. 400</h4>
                                         </div>
                                     </a>
                                     <a href="cart.php">
@@ -1924,8 +1924,8 @@
                                     <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
-                                            <h4 class="present">Rs. 400</h4>
                                             <h6 class="past">Rs 500</h6>
+                                            <h4 class="present">Rs. 400</h4>
                                         </div>
                                     </a>
                                     <a href="cart.php">
@@ -2023,8 +2023,8 @@
                                     <a href="{{url('detail')}}">
                                         <h5>Ezeekart silicone wall mounted toilet brush</h5>
                                         <div class="price">
-                                            <h4 class="present">Rs. 400</h4>
                                             <h6 class="past">Rs 500</h6>
+                                            <h4 class="present">Rs. 400</h4>
                                         </div>
                                     </a>
                                     <a href="cart.php">

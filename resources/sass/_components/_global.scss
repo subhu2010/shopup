@@ -102,7 +102,7 @@ a {
         outline: none;
     }
     &:hover {
-        color: $orientalPink;
+        color: $blue;
         text-decoration: none;
     }
 }
@@ -216,6 +216,7 @@ input {
         display: block;
         width: 100%;
         background: $bg;
+        border:1px solid #a9a9a9;
     }
     textarea {
         height: auto;
@@ -297,12 +298,12 @@ i {
         margin: 0;
         &.active {
             span {
-                background-color: $orientalPink !important;
-                border-color: $orientalPink !important;
+                background-color: $blue !important;
+                border-color: $blue !important;
             }
         }
         a {
-            color: $orientalPink !important;
+            color: $blue !important;
         }
     }
 }
@@ -310,31 +311,31 @@ i {
 // breadcrumb
 .breadcrumb,
 ol {
-    border-bottom: 0.0625rem solid $orientalPink;
+    border-bottom: 0.0625rem solid $blue;
     background: #fff;
     margin: 0;
     padding: 0.5625rem 0;
     li {
         margin: 0;
         padding: 0;
-        color: $orientalPink;
+        color: $blue;
         text-transform: capitalize;
         &.active {
-            color: $orientalPink;
+            color: $blue;
             &::before {
                 content: "";
                 float: left;
                 padding-right: 0.5rem;
-                color: $orientalPink;
+                color: $blue;
                 display: none;
                 background: url("../../../public/frontend/img/three/arrow-right.svg") no-repeat;
             }
         }
         i {
-            color: $orientalPink;
+            color: $blue;
         }
         a {
-            color: $orientalPink;
+            color: $blue;
         }
     }
 }
@@ -353,7 +354,7 @@ ol {
                 }
                 .sort {
                     margin-right: 8px;
-                    background: $orientalPink;
+                    background: $blue;
                     padding: 6px 12px;
                     li {
                         color: #fff;
@@ -364,7 +365,7 @@ ol {
                 }
                 .filter {
                     margin-right: 8px;
-                    background: $orientalPink;
+                    background: $blue;
                     padding: 6px 12px;
                     li {
                         color: #fff;
@@ -374,7 +375,7 @@ ol {
                     }
                 }
                 h4 {
-                    color: $orientalPink;
+                    color: $blue;
                 }
                 ul {
                     margin: 0;
@@ -383,7 +384,7 @@ ol {
                         display: inline-block;
                         margin: 0;
                         font-size: 0.875rem;
-                        color: $orientalPink;
+                        color: $blue;
                         .head- {
                             color: #757575;
                             margin-right: 0.25rem;
@@ -450,7 +451,7 @@ ol {
                     width: 90px;
                     height: 90px;
                     border-radius: 50%;
-                    border: 1px solid $orientalPink;
+                    border: 1px solid $blue;
                     margin-right: 20px;
                 }
                 .content-text-left {
@@ -510,7 +511,7 @@ ol {
             a {
                 &:hover {
                     h6 {
-                        color: $orientalPink;
+                        color: $blue;
                     }
                     .order-block {
                         .img {
@@ -528,6 +529,7 @@ ol {
 .product-counter {
     display: flex;
     border-radius: .3125rem;
+    border:1px solid #C4C4C4;
 }
 .custom-button input[type="text"] {
     outline-style: none;
@@ -578,13 +580,13 @@ ol {
     border-radius: 0;
     display: inline-block;
     box-shadow: none;
-    background: $orientalPink;
-    border: 0.0625rem solid $orientalPink;
+    background: $blue;
+    border: 0.0625rem solid $blue;
     color: #fff;
     &:hover {
-        border: 0.0625rem solid $orientalPink;
+        border: 0.0625rem solid $blue;
         background: transparent;
-        color: $orientalPink;
+        color: $blue;
     }
     i {
         color: #fff;
@@ -592,7 +594,6 @@ ol {
     &.btn {
         font-size: 0.875rem;
         font-weight: normal;
-        padding: 0.375rem 0.75rem;
     }
     &.all-button {
         width: 100%;
@@ -621,7 +622,7 @@ ol {
                 margin: 0;
                 &.active {
                     a {
-                        color: $orientalPink;
+                        color: $blue;
                     }
                 }
                 a {
@@ -694,7 +695,7 @@ ol {
                                 font-weight: 500;
                                 color: $black;
                                 &:hover {
-                                    color: $orientalPink;
+                                    color: $blue;
                                 }
                             }
                         }
@@ -715,7 +716,7 @@ ol {
     }
 }
 
-// $orientalPink
+// $blue
 .ratting {
     ul {
         margin: 0;
@@ -724,7 +725,7 @@ ol {
             display: inline-block;
             margin: 0;
             i {
-                color: $orientalPink;
+                color: $blue;
                 font-size: 0.9375rem;
             }
             span {
@@ -749,8 +750,8 @@ ol {
             margin: 0px 0.9375rem 0 0;
             border-bottom: 0.125rem solid #fff;
             &.active {
-                border-bottom: 0.125rem solid $orientalPink;
-                color: $orientalPink;
+                border-bottom: 0.125rem solid $blue;
+                color: $blue;
             }
         }
     }
@@ -791,7 +792,7 @@ ol {
         h5 {
             font-weight: 600;
             text-transform: capitalize;
-            color: $orientalPink;
+            color: $blue;
         }
         h6 {
             text-transform: lowercase;
@@ -836,13 +837,13 @@ ol {
                     font-weight: normal;
                     i {
                         margin-right: 0.5625rem;
-                        color: $orientalPink;
+                        color: $blue;
                     }
                 }
                 select {
                     margin-left: 0.5625rem;
-                    border: 1px solid $orientalPink;
-                    color: $orientalPink;
+                    border: 1px solid $blue;
+                    color: $blue;
                 }
                 .site-button {
                     padding: 0.375rem 0.75rem;
@@ -906,7 +907,7 @@ ol {
                             &.active {
                                 svg {
                                     path {
-                                        color: $orientalPink;
+                                        color: $blue;
                                     }
                                 }
                             }
@@ -937,7 +938,7 @@ ol {
                     justify-content: center;
                     background: $white;
                     h5 {
-                        color: $orientalPink;
+                        color: #EB0606;
                         font-size: .75rem;
                     }
                 }
@@ -946,7 +947,7 @@ ol {
                     bottom: 0;
                     left: 0;
                     width: 100%;
-                    background: $yellow;
+                    background: $blue;
                     text-align: center;
                     height: 1.9375rem;
                     transform: translateY(2rem);
@@ -1010,7 +1011,7 @@ ol {
                     }
                     &:hover {
                         .content-cart {
-                            background-color: $orientalPink;
+                            background-color: $blue;
                             svg {
                                 path {
                                     fill: #fff;
@@ -1066,16 +1067,16 @@ ol {
                 }
                 p {
                     margin: 0;
-                    color: $orientalPink;
+                    color: $blue;
                 }
                 a {
                     &:hover {
                         h5 {
-                            color: $orientalPink;
+                            color: $blue;
                         }
                         .price {
                             h4 {
-                                color: $orientalPink;
+                                color: $blue;
                             }
                         }
                     }
@@ -1195,7 +1196,7 @@ ol {
                 &:hover {
                     svg {
                         path {
-                            fill: $orientalPink;
+                            fill: $blue;
                         }
                     }
                 }
@@ -1218,7 +1219,7 @@ ol {
 
 // twak
 .tawk-button {
-    background: $orientalPink !important;
+    background: $blue !important;
 }
 
 // progress
@@ -1231,7 +1232,7 @@ ol {
         .progressjs-inner {
             height: 0.3125rem !important;
             width: 40% !important;
-            background: $orientalPink;
+            background: $blue;
             border-radius: 0.25rem;
         }
     }
@@ -1266,7 +1267,7 @@ ol {
             input[type="range"] {
                 width: 100%;
                 height: 0.25rem;
-                background: $orientalPink;
+                background: $blue;
                 outline: 0;
                 -webkit-box-sizing: border-box;
                 box-sizing: border-box;
@@ -1294,7 +1295,7 @@ ol {
                 pointer-events: none;
                 background: transparent;
                 border-color: transparent;
-                color: $orientalPink;
+                color: $blue;
                 border-radius: 5px;
             }
 
@@ -1311,7 +1312,7 @@ ol {
                 height: 0.625rem;
                 width: 0.625rem;
                 margin-top: -5px;
-                background-color: $orientalPink;
+                background-color: $blue;
                 cursor: ew-resize;
                 pointer-events: all;
                 z-index: 100;
@@ -1345,7 +1346,7 @@ ol {
                 height: 15px;
                 width: 15px;
                 margin-top: -8px;
-                background-color: $orientalPink;
+                background-color: $blue;
                 cursor: ew-resize;
                 pointer-events: all;
                 z-index: 100;
@@ -1358,7 +1359,7 @@ ol {
                 // width: 188px;
                 height: 2px;
                 cursor: ew-resize;
-                background: $orientalPink;
+                background: $blue;
                 border-radius: 5px;
             }
 
@@ -1367,7 +1368,7 @@ ol {
                 // width: 188px;
                 height: 2px;
                 cursor: ew-resize;
-                background: $orientalPink;
+                background: $blue;
                 border-radius: 5px;
             }
 
@@ -1376,7 +1377,7 @@ ol {
                 // width: 188px;
                 height: 0.125rem;
                 cursor: ew-resize;
-                background: $orientalPink;
+                background: $blue;
                 border-radius: 0.3125rem;
             }
         }
@@ -1388,7 +1389,7 @@ ol {
             .price-title {
                 margin: 0;
                 font-size: 0.9375rem;
-                color: $orientalPink;
+                color: $blue;
                 font-weight: 500;
             }
 
@@ -1401,7 +1402,7 @@ ol {
                 .price-wrap-2 {
                     label {
                         font-weight: 500;
-                        color: $orientalPink;
+                        color: $blue;
                         margin: 0 !important;
                     }
                     #one,
@@ -1413,7 +1414,7 @@ ol {
                         background: 0;
                         border: 0;
                         outline: 0;
-                        color: $orientalPink;
+                        color: $blue;
                         font-size: 15px;
                         font-weight: 500;
                     }
@@ -1444,7 +1445,7 @@ ol {
             content: "";
             -webkit-appearance: none;
             background-color: transparent;
-            border: 1px solid $orientalPink;
+            border: 1px solid $blue;
             padding: 6px;
             display: inline-block;
             position: relative;
@@ -1461,7 +1462,7 @@ ol {
         left: 8px;
         width: 6px;
         height: 14px;
-        border: solid $orientalPink;
+        border: solid $blue;
         border-width: 0 2px 2px 0;
         -webkit-transform: rotate(45deg);
         transform: rotate(45deg);
@@ -1505,7 +1506,7 @@ ol {
                 }
                 th {
                     font-weight: normal;
-                    background: $orientalPink;
+                    background: $blue;
                     color: #fff;
                 }
             }
@@ -1536,12 +1537,12 @@ table {
 
     &:hover {
         color: #fff !important;
-        background: $orientalPink !important;
+        background: $blue !important;
     }
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button.current,
 .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
-    background: $orientalPink !important;
+    background: $blue !important;
     color: #fff !important;
 }
 
